@@ -22,6 +22,10 @@
     {"id": "RAV4_TIRE_RR_SPD", "path": "Movement", "fmt": {"bix": 16, "len": 8, "max": 326.4, "mul": 256, "div": 200, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"},
     {"id": "RAV4_TIRE_RL_SPD", "path": "Movement", "fmt": {"bix": 24, "len": 8, "max": 326.4, "mul": 256, "div": 200, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"}
   ]},
+{ "hdr": "7C0", "rax": "7C8", "cmd": {"21": "29"}, "freq": 5,
+  "signals": [
+    {"id": "RAV4_FLI_VOL", "path": "Fuel", "fmt": { "len": 8, "max": 127.5, "div": 2, "unit": "liters" }, "name": "Fuel level (volume)"}
+  ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"21": "28"}, "freq": 5,
   "signals": [
     {"id": "RAV4_ODO", "path": "Trips", "fmt": { "len": 24, "max": 4294967295, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
