@@ -47,7 +47,7 @@
     {"id": "RAV4_VVTOT",         "path": "Engine", "fmt": {"bix": 56, "len": 8,  "max": 215,    "min": -40,             "unit": "celsius"    }, "name": "Variable valve timing oil temperature"},
     {"id": "RAV4_EOT",           "path": "Engine", "fmt": {"bix": 72, "len": 8,  "max": 215,    "min": -40,             "unit": "celsius"    }, "name": "Engine oil temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "85"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "85"}, "freq": 30,
   "signals": [
     {"id": "RAV4_GEAR", "path": "Engine", "name": "Gear", "fmt": {"len": 8, "map": {
           "1": { "description": "Park", "value": "PARK" }
