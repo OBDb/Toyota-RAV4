@@ -12,19 +12,70 @@ from schemas.python.signals_testing import obd_testrunner
 REPO_ROOT = Path(__file__).parent.parent.absolute()
 
 TEST_CASES = [
-    # TODO: Implement real tests below with vehicle data.
-    # 2019 model year
     {
-        "model_year": "2019",
+        "model_year": "2014",
+        "signalset": "0000-2018.json",
+        "tests": [
+            # Tire pressures
+            ("7582A10076130AAA9A8\n7582A21AC0000000000", {
+                "RAV4_TP_FL": 2.4310344827586206,
+                "RAV4_TP_FR": 2.413793103448276,
+                "RAV4_TP_RL": 2.396551724137931,
+                "RAV4_TP_RR": 2.4655172413793105,
+                "RAV4_TP_SPARE": 0,
+            }),
+
+            # Fuel level volume
+            ("7C803612947", {"RAV4_FLI_VOL": 35.5}),
+            ("7C803612966", {"RAV4_FLI_VOL": 51}),
+
+            # General stats
+            ("7E810216151000005FE\n7E82101003D7D413E76\n7E822302D00001E8A04\n7E8234100008052918C\n7E82480C4806A000000", {
+                "RAV4_PREV_TRIP_DST": 0.61,
+                "RAV4_VVTOT": 125.0,
+                "RAV4_EOT": 62,
+            }),
+
+            # Gear
+            ("7E8056185010010", {"RAV4_GEAR": 1, "RAV4_GEAR_LOCKUP": 0}),
+            ("7E8056185012010", {"RAV4_GEAR": 1, "RAV4_GEAR_LOCKUP": 0}),
+            ("7E8056185012018", {"RAV4_GEAR": 1, "RAV4_GEAR_LOCKUP": 0}),
+            ("7E8056185030010", {"RAV4_GEAR": 3, "RAV4_GEAR_LOCKUP": 0}),
+            ("7E8056185040010", {"RAV4_GEAR": 4, "RAV4_GEAR_LOCKUP": 0}),
+            ("7E8056185042018", {"RAV4_GEAR": 4, "RAV4_GEAR_LOCKUP": 0}),
+            ("7E8056185050010", {"RAV4_GEAR": 5, "RAV4_GEAR_LOCKUP": 0}),
+            ("7E8056185052018", {"RAV4_GEAR": 5, "RAV4_GEAR_LOCKUP": 0}),
+            ("7E8056185060010", {"RAV4_GEAR": 6, "RAV4_GEAR_LOCKUP": 0}),
+            ("7E8056185062018", {"RAV4_GEAR": 6, "RAV4_GEAR_LOCKUP": 0}),
+            ("7E805618506A018", {"RAV4_GEAR": 6, "RAV4_GEAR_LOCKUP": 1}),
+
+            # Tire speeds
+            ("7B806610300000000", {
+                "RAV4_TS_FR": 0,
+                "RAV4_TS_FL": 0,
+                "RAV4_TS_RR": 0,
+                "RAV4_TS_RL": 0,
+            }),
+            ("7B806610365656464", {
+                "RAV4_TS_FR": 129.28,
+                "RAV4_TS_FL": 129.28,
+                "RAV4_TS_RR": 128,
+                "RAV4_TS_RL": 128,
+            }),
+        ]
+    },
+    {
+        "model_year": "2021",
         "signalset": "default.json",
         "tests": [
-            # # Tire pressures
-            # ("72E05622813028C", {"F150_TP_FL": 32.6}),
-            # ("72E056228140273", {"F150_TP_FR": 31.35}),
-            # ("72E056228150291", {"F150_TP_RRO": 32.85}),
-            # ("72E05622816026E", {"F150_TP_RLO": 31.1}),
-            # ("72E056228170000", {"F150_TP_RRI": 0.0}),
-            # ("72E056228180000", {"F150_TP_RLI": 0.0}),
+            # Tire pressures
+            ("7582A10076130ACAAA7\n7582A21AC0000000000", {
+                "RAV4_TP_FL": 2.4655172413793105,
+                "RAV4_TP_FR": 2.4310344827586206,
+                "RAV4_TP_RL": 2.3793103448275863,
+                "RAV4_TP_RR": 2.4655172413793105,
+                "RAV4_TP_SPARE": 0,
+            }),
         ]
     },
 ]
@@ -51,7 +102,8 @@ def test_signals(test_group: Dict[str, Any]):
                 signalset_json,
                 response_hex,
                 expected_values,
-                can_id_format=CANIDFormat.ELEVEN_BIT
+                can_id_format=CANIDFormat.ELEVEN_BIT,
+                extended_addressing_enabled=response_hex.startswith('7582A')
             )
         except Exception as e:
             pytest.fail(
