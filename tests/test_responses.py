@@ -36,6 +36,14 @@ TEST_CASES = [
                 "RAV4_EOT": 62,
             }),
 
+            # Cruise control speeds
+            ("7E80761210000008000", {"RAV4_CC_S": 0}),
+            ("7E80761216F6F14FC00", {"RAV4_CC_S": 111.0}),
+
+            # Transmission temperature (pan)
+            ("7E80461822D00", {"RAV4_ATF_PAN_T": 5}),
+            ("7E80461827800", {"RAV4_ATF_PAN_T": 80}),
+
             # Gear
             ("7E8056185010010", {"RAV4_GEAR": 1, "RAV4_GEAR_LOCKUP": 0}),
             ("7E8056185012010", {"RAV4_GEAR": 1, "RAV4_GEAR_LOCKUP": 0}),
