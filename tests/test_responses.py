@@ -7,14 +7,13 @@ from typing import Dict, Any
 # These will be imported from the schemas repository
 from schemas.python.can_frame import CANIDFormat
 from schemas.python.json_formatter import format_file
-from schemas.python.signals_testing import obd_testrunner
+from schemas.python.signals_testing import obd_testrunner_by_year
 
 REPO_ROOT = Path(__file__).parent.parent.absolute()
 
 TEST_CASES = [
     {
-        "model_year": "2014",
-        "signalset": "0000-2018.json",
+        "model_year": 2014,
         "tests": [
             # Tire pressures
             ("7582A10076130AAA9A8\n7582A21AC0000000000", {
@@ -73,9 +72,12 @@ TEST_CASES = [
         ]
     },
     {
-        "model_year": "2021",
-        "signalset": "default.json",
+        "model_year": 2021,
         "tests": [
+            # Fuel level
+            ("70804621F2F11", {"RAV4_FLI": 6.666666666666667}),
+            ("70804621F2FDE", {"RAV4_FLI": 87.05882352941177}),
+
             # Tire pressures
             ("7582A10076130ACAAA7\n7582A21AC0000000000", {
                 "RAV4_TP_FL": 2.4655172413793105,
@@ -88,12 +90,6 @@ TEST_CASES = [
     },
 ]
 
-def load_signalset(filename: str) -> str:
-    """Load a signalset JSON file from the standard location."""
-    signalset_path = REPO_ROOT / "signalsets" / "v3" / filename
-    with open(signalset_path) as f:
-        return f.read()
-
 @pytest.mark.parametrize(
     "test_group",
     TEST_CASES,
@@ -101,13 +97,11 @@ def load_signalset(filename: str) -> str:
 )
 def test_signals(test_group: Dict[str, Any]):
     """Test signal decoding against known responses."""
-    signalset_json = load_signalset(test_group["signalset"])
-
     # Run each test case in the group
     for response_hex, expected_values in test_group["tests"]:
         try:
-            obd_testrunner(
-                signalset_json,
+            obd_testrunner_by_year(
+                test_group['model_year'],
                 response_hex,
                 expected_values,
                 can_id_format=CANIDFormat.ELEVEN_BIT,
@@ -116,8 +110,7 @@ def test_signals(test_group: Dict[str, Any]):
         except Exception as e:
             pytest.fail(
                 f"Failed on response {response_hex} "
-                f"(Model Year: {test_group['model_year']}, "
-                f"Signalset: {test_group['signalset']}): {e}"
+                f"(Model Year: {test_group['model_year']}: {e}"
             )
 
 def get_json_files():
