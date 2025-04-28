@@ -1,0 +1,142 @@
+command_id: 7B0.7B8.2103
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 7B806610300000000
+  expected_values:
+    RAV4_TS_FL: 0
+    RAV4_TS_FR: 0
+    RAV4_TS_RL: 0
+    RAV4_TS_RR: 0
+- response: 7B806610301020102
+  expected_values:
+    RAV4_TS_FL: 2.56
+    RAV4_TS_FR: 1.28
+    RAV4_TS_RL: 2.56
+    RAV4_TS_RR: 1.28
+- response: 7B806610302020202
+  expected_values:
+    RAV4_TS_FL: 2.56
+    RAV4_TS_FR: 2.56
+    RAV4_TS_RL: 2.56
+    RAV4_TS_RR: 2.56
+- response: 7B806610305040404
+  expected_values:
+    RAV4_TS_FL: 5.12
+    RAV4_TS_FR: 6.4
+    RAV4_TS_RL: 5.12
+    RAV4_TS_RR: 5.12
+- response: 7B806610305060405
+  expected_values:
+    RAV4_TS_FL: 7.68
+    RAV4_TS_FR: 6.4
+    RAV4_TS_RL: 6.4
+    RAV4_TS_RR: 5.12
+- response: 7B806610307070707
+  expected_values:
+    RAV4_TS_FL: 8.96
+    RAV4_TS_FR: 8.96
+    RAV4_TS_RL: 8.96
+    RAV4_TS_RR: 8.96
+- response: 7B806610308080808
+  expected_values:
+    RAV4_TS_FL: 10.24
+    RAV4_TS_FR: 10.24
+    RAV4_TS_RL: 10.24
+    RAV4_TS_RR: 10.24
+- response: 7B806610308090809
+  expected_values:
+    RAV4_TS_FL: 11.52
+    RAV4_TS_FR: 10.24
+    RAV4_TS_RL: 11.52
+    RAV4_TS_RR: 10.24
+- response: 7B80661030B0B0B0B
+  expected_values:
+    RAV4_TS_FL: 14.08
+    RAV4_TS_FR: 14.08
+    RAV4_TS_RL: 14.08
+    RAV4_TS_RR: 14.08
+- response: 7B80661030E0E0E0E
+  expected_values:
+    RAV4_TS_FL: 17.92
+    RAV4_TS_FR: 17.92
+    RAV4_TS_RL: 17.92
+    RAV4_TS_RR: 17.92
+- response: 7B806610310101010
+  expected_values:
+    RAV4_TS_FL: 20.48
+    RAV4_TS_FR: 20.48
+    RAV4_TS_RL: 20.48
+    RAV4_TS_RR: 20.48
+- response: 7B806610311111111
+  expected_values:
+    RAV4_TS_FL: 21.76
+    RAV4_TS_FR: 21.76
+    RAV4_TS_RL: 21.76
+    RAV4_TS_RR: 21.76
+- response: 7B806610313141314
+  expected_values:
+    RAV4_TS_FL: 25.6
+    RAV4_TS_FR: 24.32
+    RAV4_TS_RL: 25.6
+    RAV4_TS_RR: 24.32
+- response: 7B806610315151515
+  expected_values:
+    RAV4_TS_FL: 26.88
+    RAV4_TS_FR: 26.88
+    RAV4_TS_RL: 26.88
+    RAV4_TS_RR: 26.88
+- response: 7B806610317171717
+  expected_values:
+    RAV4_TS_FL: 29.44
+    RAV4_TS_FR: 29.44
+    RAV4_TS_RL: 29.44
+    RAV4_TS_RR: 29.44
+- response: 7B80661031A1A1A1A
+  expected_values:
+    RAV4_TS_FL: 33.28
+    RAV4_TS_FR: 33.28
+    RAV4_TS_RL: 33.28
+    RAV4_TS_RR: 33.28
+- response: 7B80661031B1B1B1B
+  expected_values:
+    RAV4_TS_FL: 34.56
+    RAV4_TS_FR: 34.56
+    RAV4_TS_RL: 34.56
+    RAV4_TS_RR: 34.56
+- response: 7B80661031D1D1D1D
+  expected_values:
+    RAV4_TS_FL: 37.12
+    RAV4_TS_FR: 37.12
+    RAV4_TS_RL: 37.12
+    RAV4_TS_RR: 37.12
+- response: 7B806610320202020
+  expected_values:
+    RAV4_TS_FL: 40.96
+    RAV4_TS_FR: 40.96
+    RAV4_TS_RL: 40.96
+    RAV4_TS_RR: 40.96
+- response: 7B806610322222222
+  expected_values:
+    RAV4_TS_FL: 43.52
+    RAV4_TS_FR: 43.52
+    RAV4_TS_RL: 43.52
+    RAV4_TS_RR: 43.52
+- response: 7B806610324242424
+  expected_values:
+    RAV4_TS_FL: 46.08
+    RAV4_TS_FR: 46.08
+    RAV4_TS_RL: 46.08
+    RAV4_TS_RR: 46.08
+- response: 7B806610325252525
+  expected_values:
+    RAV4_TS_FL: 47.36
+    RAV4_TS_FR: 47.36
+    RAV4_TS_RL: 47.36
+    RAV4_TS_RR: 47.36
+- response: 7B80661032A2A2A2A
+  expected_values:
+    RAV4_TS_FL: 53.76
+    RAV4_TS_FR: 53.76
+    RAV4_TS_RL: 53.76
+    RAV4_TS_RR: 53.76
