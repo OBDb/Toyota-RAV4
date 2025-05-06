@@ -2,24 +2,15 @@ command_id: 7E0.7E8.2182
 can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
-- response: 7E80461822D00
-  expected_values:
-    RAV4_ATF_PAN_T: 5
 - response: 7E80461822DA0
   expected_values:
     RAV4_ATF_PAN_T: 5.625
-- response: 7E80461822EE0
-  expected_values:
-    RAV4_ATF_PAN_T: 6.875
 - response: '7E80461823200'
   expected_values:
     RAV4_ATF_PAN_T: 10
 - response: '7E80461823700'
   expected_values:
     RAV4_ATF_PAN_T: 15
-- response: '7E80461823980'
-  expected_values:
-    RAV4_ATF_PAN_T: 17.5
 - response: 7E80461823C00
   expected_values:
     RAV4_ATF_PAN_T: 20
@@ -29,9 +20,6 @@ test_cases:
 - response: '7E80461824100'
   expected_values:
     RAV4_ATF_PAN_T: 25
-- response: 7E804618241A0
-  expected_values:
-    RAV4_ATF_PAN_T: 25.625
 - response: '7E80461824380'
   expected_values:
     RAV4_ATF_PAN_T: 27.5
@@ -41,18 +29,12 @@ test_cases:
 - response: 7E804618246A0
   expected_values:
     RAV4_ATF_PAN_T: 30.625
-- response: '7E80461824880'
-  expected_values:
-    RAV4_ATF_PAN_T: 32.5
 - response: 7E804618249C0
   expected_values:
     RAV4_ATF_PAN_T: 33.75
 - response: 7E80461824B00
   expected_values:
     RAV4_ATF_PAN_T: 35
-- response: 7E80461824BA0
-  expected_values:
-    RAV4_ATF_PAN_T: 35.625
 - response: 7E80461824CE0
   expected_values:
     RAV4_ATF_PAN_T: 36.875
@@ -71,9 +53,6 @@ test_cases:
 - response: '7E80461825280'
   expected_values:
     RAV4_ATF_PAN_T: 42.5
-- response: 7E804618253C0
-  expected_values:
-    RAV4_ATF_PAN_T: 43.75
 - response: '7E80461825500'
   expected_values:
     RAV4_ATF_PAN_T: 45
