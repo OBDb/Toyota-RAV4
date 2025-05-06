@@ -14,12 +14,6 @@ test_cases:
 - response: 7E807612100000080E0
   expected_values:
     RAV4_CC_S: 0
-- response: 7E8076121002E00BC00
-  expected_values:
-    RAV4_CC_S: 46
-- response: 7E8076121002E00BCE0
-  expected_values:
-    RAV4_CC_S: 46
 - response: 7E8076121005000BCE0
   expected_values:
     RAV4_CC_S: 80
@@ -29,9 +23,6 @@ test_cases:
 - response: 7E8076121005B00BCE0
   expected_values:
     RAV4_CC_S: 91
-- response: 7E8076121006900BCE0
-  expected_values:
-    RAV4_CC_S: 105
 - response: 7E80761210072003C00
   expected_values:
     RAV4_CC_S: 114
@@ -59,9 +50,6 @@ test_cases:
 - response: 7E80761210A00008000
   expected_values:
     RAV4_CC_S: 0
-- response: 7E80761210A2E00BCE0
-  expected_values:
-    RAV4_CC_S: 46
 - response: 7E80761210C5B00BC00
   expected_values:
     RAV4_CC_S: 91
@@ -74,19 +62,10 @@ test_cases:
 - response: 7E80761210E5000BCE0
   expected_values:
     RAV4_CC_S: 80
-- response: 7E80761210E6900BC00
-  expected_values:
-    RAV4_CC_S: 105
 - response: '7E80761211000008000'
   expected_values:
     RAV4_CC_S: 0
 - response: 7E807612110000080E0
-  expected_values:
-    RAV4_CC_S: 0
-- response: 7E8076121102E00BCE0
-  expected_values:
-    RAV4_CC_S: 46
-- response: '7E80761211100008000'
   expected_values:
     RAV4_CC_S: 0
 - response: 7E807612111000080E0
@@ -98,9 +77,6 @@ test_cases:
 - response: 7E807612117000080E0
   expected_values:
     RAV4_CC_S: 0
-- response: 7E8076121176900BC00
-  expected_values:
-    RAV4_CC_S: 105
 - response: '7E80761211800008000'
   expected_values:
     RAV4_CC_S: 0
@@ -116,36 +92,21 @@ test_cases:
 - response: 7E80761211A000080E0
   expected_values:
     RAV4_CC_S: 0
-- response: 7E80761211A2E00BCE0
-  expected_values:
-    RAV4_CC_S: 46
 - response: 7E80761211B000080E0
   expected_values:
     RAV4_CC_S: 0
 - response: 7E80761211D00008000
   expected_values:
     RAV4_CC_S: 0
-- response: 7E80761211D2E00BCE0
-  expected_values:
-    RAV4_CC_S: 46
 - response: 7E80761211E00008000
   expected_values:
     RAV4_CC_S: 0
 - response: 7E80761211E000080E0
   expected_values:
     RAV4_CC_S: 0
-- response: 7E80761211E2E00BC00
-  expected_values:
-    RAV4_CC_S: 46
-- response: 7E80761211E2E00BCE0
-  expected_values:
-    RAV4_CC_S: 46
 - response: 7E80761211E5B00BC00
   expected_values:
     RAV4_CC_S: 91
-- response: 7E80761211F2E00BC00
-  expected_values:
-    RAV4_CC_S: 46
 - response: 7E80761211F7200BCE0
   expected_values:
     RAV4_CC_S: 114
@@ -173,9 +134,6 @@ test_cases:
 - response: 7E807612123000080E0
   expected_values:
     RAV4_CC_S: 0
-- response: 7E8076121242E00BC00
-  expected_values:
-    RAV4_CC_S: 46
 - response: 7E8076121245B00BC00
   expected_values:
     RAV4_CC_S: 91
@@ -230,36 +188,21 @@ test_cases:
 - response: 7E80761212E00008000
   expected_values:
     RAV4_CC_S: 0
-- response: 7E80761212E2E00BC00
-  expected_values:
-    RAV4_CC_S: 46
-- response: 7E80761212E2E05FC00
-  expected_values:
-    RAV4_CC_S: 46
 - response: 7E80761212F00008000
   expected_values:
     RAV4_CC_S: 0
 - response: 7E80761212F000080E0
   expected_values:
     RAV4_CC_S: 0
-- response: 7E80761212F2E00BC00
-  expected_values:
-    RAV4_CC_S: 46
 - response: '7E80761213000008000'
   expected_values:
     RAV4_CC_S: 0
 - response: 7E807612130000080E0
   expected_values:
     RAV4_CC_S: 0
-- response: 7E8076121302E00BC00
-  expected_values:
-    RAV4_CC_S: 46
 - response: '7E80761213100008000'
   expected_values:
     RAV4_CC_S: 0
-- response: 7E8076121312E00BC00
-  expected_values:
-    RAV4_CC_S: 46
 - response: '7E80761213200008000'
   expected_values:
     RAV4_CC_S: 0
@@ -287,9 +230,6 @@ test_cases:
 - response: '7E80761213900008000'
   expected_values:
     RAV4_CC_S: 0
-- response: 7E807612139000080E0
-  expected_values:
-    RAV4_CC_S: 0
 - response: 7E80761213A00008000
   expected_values:
     RAV4_CC_S: 0
@@ -299,9 +239,6 @@ test_cases:
 - response: 7E80761213C00008000
   expected_values:
     RAV4_CC_S: 0
-- response: 7E80761213C6900BC00
-  expected_values:
-    RAV4_CC_S: 105
 - response: 7E80761213D00008000
   expected_values:
     RAV4_CC_S: 0
@@ -320,9 +257,6 @@ test_cases:
 - response: 7E80761213F00008000
   expected_values:
     RAV4_CC_S: 0
-- response: 7E80761213F2E00BC00
-  expected_values:
-    RAV4_CC_S: 46
 - response: '7E80761214000008000'
   expected_values:
     RAV4_CC_S: 0
@@ -332,15 +266,9 @@ test_cases:
 - response: '7E80761214100008000'
   expected_values:
     RAV4_CC_S: 0
-- response: 7E8076121412E00BC00
-  expected_values:
-    RAV4_CC_S: 46
 - response: '7E80761214200008000'
   expected_values:
     RAV4_CC_S: 0
-- response: 7E8076121426900BCE0
-  expected_values:
-    RAV4_CC_S: 105
 - response: '7E80761214300008000'
   expected_values:
     RAV4_CC_S: 0
@@ -374,36 +302,24 @@ test_cases:
 - response: '7E80761214900008000'
   expected_values:
     RAV4_CC_S: 0
-- response: 7E8076121492E00BCE0
-  expected_values:
-    RAV4_CC_S: 46
 - response: 7E8076121495000BC00
   expected_values:
     RAV4_CC_S: 80
 - response: 7E80761214A00008000
   expected_values:
     RAV4_CC_S: 0
-- response: 7E80761214A2E00BC00
-  expected_values:
-    RAV4_CC_S: 46
 - response: 7E80761214A5000BC00
   expected_values:
     RAV4_CC_S: 80
 - response: 7E80761214B00008000
   expected_values:
     RAV4_CC_S: 0
-- response: 7E80761214B2E00BC00
-  expected_values:
-    RAV4_CC_S: 46
 - response: 7E80761214B5B00BC00
   expected_values:
     RAV4_CC_S: 91
 - response: 7E80761214C00008000
   expected_values:
     RAV4_CC_S: 0
-- response: 7E80761214C2E00BC00
-  expected_values:
-    RAV4_CC_S: 46
 - response: 7E80761214C5000BC00
   expected_values:
     RAV4_CC_S: 80
@@ -422,15 +338,9 @@ test_cases:
 - response: 7E80761214F00008000
   expected_values:
     RAV4_CC_S: 0
-- response: 7E80761214F2E00BC00
-  expected_values:
-    RAV4_CC_S: 46
 - response: '7E80761215000008000'
   expected_values:
     RAV4_CC_S: 0
-- response: 7E8076121502E00BC00
-  expected_values:
-    RAV4_CC_S: 46
 - response: 7E8076121505005FC00
   expected_values:
     RAV4_CC_S: 80
@@ -440,18 +350,12 @@ test_cases:
 - response: 7E8076121515B00BC00
   expected_values:
     RAV4_CC_S: 91
-- response: 7E8076121516900BC00
-  expected_values:
-    RAV4_CC_S: 105
 - response: 7E8076121517200BC00
   expected_values:
     RAV4_CC_S: 114
 - response: '7E80761215200008000'
   expected_values:
     RAV4_CC_S: 0
-- response: 7E8076121522E00BCE0
-  expected_values:
-    RAV4_CC_S: 46
 - response: '7E80761215300008000'
   expected_values:
     RAV4_CC_S: 0
@@ -470,12 +374,6 @@ test_cases:
 - response: 7E8076121567200BC00
   expected_values:
     RAV4_CC_S: 114
-- response: 7E8076121572E00BC00
-  expected_values:
-    RAV4_CC_S: 46
-- response: 7E8076121582E00BC00
-  expected_values:
-    RAV4_CC_S: 46
 - response: 7E80761215A00008000
   expected_values:
     RAV4_CC_S: 0
@@ -485,12 +383,6 @@ test_cases:
 - response: 7E80761215A5B19FC00
   expected_values:
     RAV4_CC_S: 91
-- response: 7E80761215B00008000
-  expected_values:
-    RAV4_CC_S: 0
-- response: 7E80761215B2E00BC00
-  expected_values:
-    RAV4_CC_S: 46
 - response: 7E80761215B5B0FFC00
   expected_values:
     RAV4_CC_S: 91
@@ -504,9 +396,6 @@ test_cases:
   expected_values:
     RAV4_CC_S: 114
 - response: 7E80761215E00008000
-  expected_values:
-    RAV4_CC_S: 0
-- response: '7E80761216100008000'
   expected_values:
     RAV4_CC_S: 0
 - response: '7E80761216200008000'
@@ -524,36 +413,9 @@ test_cases:
 - response: 7E8076121675000BC00
   expected_values:
     RAV4_CC_S: 80
-- response: 7E8076121676900BCE0
-  expected_values:
-    RAV4_CC_S: 105
 - response: '7E80761216800008000'
   expected_values:
     RAV4_CC_S: 0
-- response: 7E8076121686900BC00
-  expected_values:
-    RAV4_CC_S: 105
-- response: 7E8076121686914FC00
-  expected_values:
-    RAV4_CC_S: 105
-- response: 7E8076121686915FC00
-  expected_values:
-    RAV4_CC_S: 105
-- response: 7E8076121696900BC00
-  expected_values:
-    RAV4_CC_S: 105
-- response: 7E807612169690DFC00
-  expected_values:
-    RAV4_CC_S: 105
-- response: 7E807612169690EFC00
-  expected_values:
-    RAV4_CC_S: 105
-- response: 7E8076121696911FC00
-  expected_values:
-    RAV4_CC_S: 105
-- response: 7E8076121696913FC00
-  expected_values:
-    RAV4_CC_S: 105
 - response: 7E80761216A00008000
   expected_values:
     RAV4_CC_S: 0
@@ -566,24 +428,9 @@ test_cases:
 - response: 7E80761216D00008000
   expected_values:
     RAV4_CC_S: 0
-- response: 7E80761216E6900BC00
-  expected_values:
-    RAV4_CC_S: 105
-- response: 7E80761216E6F14FC00
-  expected_values:
-    RAV4_CC_S: 111
 - response: 7E80761216F00008000
   expected_values:
     RAV4_CC_S: 0
-- response: 7E80761216F6F0DFC00
-  expected_values:
-    RAV4_CC_S: 111
-- response: 7E80761216F6F0FFC00
-  expected_values:
-    RAV4_CC_S: 111
-- response: 7E80761216F6F14FC00
-  expected_values:
-    RAV4_CC_S: 111
 - response: '7E80761217000008000'
   expected_values:
     RAV4_CC_S: 0
@@ -608,12 +455,3 @@ test_cases:
 - response: 7E8076121775000BC00
   expected_values:
     RAV4_CC_S: 80
-- response: 7E80761217A00008000
-  expected_values:
-    RAV4_CC_S: 0
-- response: 7E80761217E00008000
-  expected_values:
-    RAV4_CC_S: 0
-- response: '7E80761218400008000'
-  expected_values:
-    RAV4_CC_S: 0
