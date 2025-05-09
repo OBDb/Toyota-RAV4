@@ -183,7 +183,7 @@ supported_commands_by_ecu:
   - 014E:CLR_TIME
 unsupported_commands_by_ecu:
   750:
-  - 750.758.2130
+  - 750.758.2130:RAV4_TP_FL,RAV4_TP_FR,RAV4_TP_RL,RAV4_TP_RR,RAV4_TP_SPARE
   7E0:
   - 7E0.7E8.0101
   - 7E0.7E8.0103
