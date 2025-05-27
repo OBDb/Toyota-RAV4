@@ -1,6 +1,4 @@
 command_id: 7E0.7E8.2185
-can_id_format: ELEVEN_BIT
-extended_addressing_enabled: false
 test_cases:
 - response: '7E8056185010010'
   expected_values:
@@ -18,3 +16,32 @@ test_cases:
   expected_values:
     RAV4_GEAR: 6
     RAV4_GEAR_LOCKUP: 1
+- response: |-
+    NO DATA
+    > 750.221004
+    NO DATA
+    > 750.2115
+    NO DATA
+    > 750.758.2130
+    NO DATA
+    > 7E0.7E8.2185
+    7E8056185010010
+  expected_values:
+    RAV4_GEAR: 1
+    RAV4_GEAR_LOCKUP: 0
+- response: |-
+    NO DATA
+    > 750.758.2130
+    NO DATA
+    > 7E0.7E8.2185
+    7E8056185010010
+  expected_values:
+    RAV4_GEAR: 1
+    RAV4_GEAR_LOCKUP: 0
+- response: |-
+    NO DATA
+    > 7E0.7E8.2185
+    7E8056185010010
+  expected_values:
+    RAV4_GEAR: 1
+    RAV4_GEAR_LOCKUP: 0

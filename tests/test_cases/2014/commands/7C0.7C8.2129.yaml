@@ -1,34 +1,37 @@
 command_id: 7C0.7C8.2129
-can_id_format: ELEVEN_BIT
-extended_addressing_enabled: false
 test_cases:
 - response: 7C803612947
   expected_values:
     RAV4_FLI_VOL: 35.5
-- response: 7C80361294B
+- response: 7C80361296E
   expected_values:
-    RAV4_FLI_VOL: 37.5
-- response: 7C80361294D
+    RAV4_FLI_VOL: 55
+- response: |-
+    > 750.758.2130
+    NO DATA
+    > 700.221F5E
+    NO DATA
+    > 7C0.7C8.2129
+    7C803612962
   expected_values:
-    RAV4_FLI_VOL: 38.5
-- response: 7C80361294F
+    RAV4_FLI_VOL: 49
+- response: |-
+    NO DATA
+    > 700.221F5E
+    NO DATA
+    > 7C0.7C8.2129
+    7C80361295A
   expected_values:
-    RAV4_FLI_VOL: 39.5
-- response: 7C803612951
+    RAV4_FLI_VOL: 45
+- response: |-
+    NO DATA
+    > 7C0.7C8.2129
+    7C803612951
   expected_values:
     RAV4_FLI_VOL: 40.5
-- response: 7C803612953
+- response: |-
+    NO DATA
+    > 7C0.7C8.2129
+    7C803612969
   expected_values:
-    RAV4_FLI_VOL: 41.5
-- response: 7C803612956
-  expected_values:
-    RAV4_FLI_VOL: 43
-- response: 7C803612958
-  expected_values:
-    RAV4_FLI_VOL: 44
-- response: 7C80361295E
-  expected_values:
-    RAV4_FLI_VOL: 47
-- response: 7C803612966
-  expected_values:
-    RAV4_FLI_VOL: 51
+    RAV4_FLI_VOL: 52.5

@@ -1,16 +1,28 @@
 command_id: 7E0.7E8.2182
-can_id_format: ELEVEN_BIT
-extended_addressing_enabled: false
 test_cases:
-- response: 7E80461822DA0
+- response: 7E80461822D00
   expected_values:
-    RAV4_ATF_PAN_T: 5.625
-- response: '7E80461823200'
+    RAV4_ATF_PAN_T: 5
+- response: 7E80461822EE0
   expected_values:
-    RAV4_ATF_PAN_T: 10
-- response: 7E80461824CE0
-  expected_values:
-    RAV4_ATF_PAN_T: 36.875
+    RAV4_ATF_PAN_T: 6.875
 - response: '7E80461828200'
   expected_values:
     RAV4_ATF_PAN_T: 90
+- response: |-
+    > 7E0.7E8.2182
+    7E80461825FA0
+  expected_values:
+    RAV4_ATF_PAN_T: 55.625
+- response: |-
+    NO DATA
+    > 7E0.7E8.2182
+    7E80461822BC0
+  expected_values:
+    RAV4_ATF_PAN_T: 3.75
+- response: |-
+    NO DATA
+    > 7E0.7E8.2182
+    7E80461826400
+  expected_values:
+    RAV4_ATF_PAN_T: 60
