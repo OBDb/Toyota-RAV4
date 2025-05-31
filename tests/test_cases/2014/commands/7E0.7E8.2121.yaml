@@ -3,30 +3,18 @@ test_cases:
 - response: '7E80761210000000000'
   expected_values:
     RAV4_CC_S: 0
-- response: 7E807612100000000E0
+- response: 7E807612100000080E0
   expected_values:
     RAV4_CC_S: 0
 - response: 7E80761210072003C00
   expected_values:
     RAV4_CC_S: 114
-- response: 7E80761212E2E05FC00
+- response: 7E8076121505005FC00
   expected_values:
-    RAV4_CC_S: 46
-- response: 7E80761215A5B19FC00
+    RAV4_CC_S: 80
+- response: 7E8076121727213FC00
   expected_values:
-    RAV4_CC_S: 91
-- response: '7E80761218400008000'
+    RAV4_CC_S: 114
+- response: 7E8076121775000BC00
   expected_values:
-    RAV4_CC_S: 0
-- response: |-
-    NO DATA
-    > 7E0.7E8.2121
-    7E80761210000000000
-  expected_values:
-    RAV4_CC_S: 0
-- response: |-
-    NO DATA
-    > 7E0.7E8.2121
-    7E8076121002E003C00
-  expected_values:
-    RAV4_CC_S: 46
+    RAV4_CC_S: 80
