@@ -1,34 +1,34 @@
 command_id: 7E0.7E8.2185
 test_cases:
-- response: '7E8056185010010'
-  expected_values:
+- expected_values:
     RAV4_GEAR: 1
     RAV4_GEAR_LOCKUP: 0
-- response: '7E8056185030010'
-  expected_values:
+  response: '7E8056185010010'
+- expected_values:
     RAV4_GEAR: 3
     RAV4_GEAR_LOCKUP: 0
-- response: '7E8056185040010'
-  expected_values:
+  response: '7E8056185030010'
+- expected_values:
     RAV4_GEAR: 4
     RAV4_GEAR_LOCKUP: 0
-- response: '7E8056185042018'
-  expected_values:
+  response: '7E8056185040010'
+- expected_values:
     RAV4_GEAR: 4
     RAV4_GEAR_LOCKUP: 0
-- response: '7E8056185050010'
-  expected_values:
+  response: '7E8056185042018'
+- expected_values:
     RAV4_GEAR: 5
     RAV4_GEAR_LOCKUP: 0
-- response: '7E8056185052018'
-  expected_values:
+  response: '7E8056185050010'
+- expected_values:
     RAV4_GEAR: 5
     RAV4_GEAR_LOCKUP: 0
-- response: '7E8056185062018'
-  expected_values:
+  response: '7E8056185052018'
+- expected_values:
     RAV4_GEAR: 6
     RAV4_GEAR_LOCKUP: 0
-- response: 7E805618506A018
-  expected_values:
+  response: '7E8056185062018'
+- expected_values:
     RAV4_GEAR: 6
     RAV4_GEAR_LOCKUP: 1
+  response: 7E805618506A018
