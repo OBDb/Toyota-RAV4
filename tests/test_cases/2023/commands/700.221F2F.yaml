@@ -1,8 +1,8 @@
 command_id: 700.221F2F
 test_cases:
 - expected_values:
-    RAV4_FLI: 62.35294
-  response: 70804621F2F9F
+    RAV4_FLI: 13.33333
+  response: 70804621F2F22
 - expected_values:
-    RAV4_FLI: 62.7451
-  response: 70804621F2FA0
+    RAV4_FLI: 87.84314
+  response: 70804621F2FE0
