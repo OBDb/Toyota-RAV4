@@ -7,8 +7,8 @@ test_cases:
     RAV4_RR_VSS: 0
   response: 7B806610300000000
 - expected_values:
-    RAV4_FL_VSS: 53.76
-    RAV4_FR_VSS: 53.76
-    RAV4_RL_VSS: 53.76
-    RAV4_RR_VSS: 53.76
-  response: 7B80661032A2A2A2A
+    RAV4_FL_VSS: 51.2
+    RAV4_FR_VSS: 51.2
+    RAV4_RL_VSS: 51.2
+    RAV4_RR_VSS: 51.2
+  response: 7B806610328282828

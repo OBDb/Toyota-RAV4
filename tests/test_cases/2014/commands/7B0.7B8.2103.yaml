@@ -1,14 +1,14 @@
 command_id: 7B0.7B8.2103
 test_cases:
 - expected_values:
-    RAV4_TS_FL: 0
-    RAV4_TS_FR: 0
-    RAV4_TS_RL: 0
-    RAV4_TS_RR: 0
+    RAV4_FL_VSS: 0
+    RAV4_FR_VSS: 0
+    RAV4_RL_VSS: 0
+    RAV4_RR_VSS: 0
   response: 7B806610300000000
 - expected_values:
-    RAV4_TS_FL: 129.28
-    RAV4_TS_FR: 129.28
-    RAV4_TS_RL: 128
-    RAV4_TS_RR: 128
+    RAV4_FL_VSS: 129.28
+    RAV4_FR_VSS: 129.28
+    RAV4_RL_VSS: 128
+    RAV4_RR_VSS: 128
   response: 7B806610365656464

@@ -1,4 +1,4 @@
-command_id: 700.708.221F2F
+command_id: 700.708.221F2F|f=2020-
 test_cases:
 - expected_values:
     RAV4_FLI: 6.66667

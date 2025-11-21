@@ -163,7 +163,7 @@ supported_commands_by_ecu:
   - 014E:CLR_TIME
 unsupported_commands_by_ecu:
   "700":
-  - 700.221F2F:RAV4_FLI
+  - 700.708.221F2F|f=2020-:RAV4_FLI
   "750":
   - 750.758.2130|e=2A,ta=2A,fc=1:RAV4_TP_FL,RAV4_TP_FR,RAV4_TP_RL,RAV4_TP_RR,RAV4_TP_SPARE
   "7E0":
