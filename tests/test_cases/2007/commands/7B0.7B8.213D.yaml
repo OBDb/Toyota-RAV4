@@ -1,0 +1,9 @@
+command_id: 7B0.7B8.213D
+test_cases:
+- expected_values:
+    RAV4_ABS_WARNING: 1
+    RAV4_BRAKE_WARNING: 1
+    RAV4_BUZZER: 0
+    RAV4_ECB_WARNING: 0
+    RAV4_SLIP_INDICATOR: 1
+  response: 7B803613DE4
