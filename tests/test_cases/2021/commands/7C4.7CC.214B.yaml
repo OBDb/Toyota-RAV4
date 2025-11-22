@@ -4,5 +4,5 @@ test_cases:
     RAV4_EVAP_FIN_THERMISTOR: 0.75
   response: 7CC03614B57
 - expected_values:
-    RAV4_EVAP_FIN_THERMISTOR: 7.4
-  response: 7CC03614B6A
+    RAV4_EVAP_FIN_THERMISTOR: 16.15
+  response: 7CC03614B83
