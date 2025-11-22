@@ -11,7 +11,7 @@
     {"id": "RAV4_TP_4", "path": "Tires", "fmt": {"bix": 24, "len": 8, "max": 3.89, "div": 58, "add": -0.5, "unit": "bars" }, "name": "Tire pressure #4"},
     {"id": "RAV4_TP_5", "path": "Tires", "fmt": {"bix": 32, "len": 8, "max": 3.89, "div": 58, "add": -0.5, "unit": "bars" }, "name": "Tire pressure #5"}
   ]},
-{ "hdr": "750", "rax": "758", "eax": "2A", "fcm1": true, "dbg": true, "cmd": {"21": "16"}, "freq": 15,
+{ "hdr": "750", "rax": "758", "eax": "2A", "fcm1": true, "cmd": {"21": "16"}, "freq": 15, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "RAV4_TT_1", "path": "Tires", "fmt": {           "len": 8, "max": 150, "min": -40, "add": -40, "unit": "celsius" }, "name": "Tire temperature #1"},
     {"id": "RAV4_TT_2", "path": "Tires", "fmt": {"bix": 8,  "len": 8, "max": 150, "min": -40, "add": -40, "unit": "celsius" }, "name": "Tire temperature #2"},
