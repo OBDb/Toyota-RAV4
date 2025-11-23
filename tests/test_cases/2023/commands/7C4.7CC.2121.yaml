@@ -4,5 +4,5 @@ test_cases:
     RAV4_CABIN_T: 20.25
   response: 7CC0361216B
 - expected_values:
-    RAV4_CABIN_T: 22.75
-  response: 7CC03612175
+    RAV4_CABIN_T: 23.5
+  response: 7CC03612178
