@@ -62,7 +62,7 @@
   "signals": [
     {"id": "RAV4_VSS", "path": "Movement", "fmt": { "len": 8, "max": 323.85, "mul": 1.35, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed", "description": "Current vehicle speed."}
   ]},
-{ "hdr": "7B0", "rax": "7B8", "dbg": true, "cmd": {"21": "3C"}, "freq": 1,
+{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "3C"}, "freq": 1, "dbgfilter": { "to": 2013, "from": 2015 },
   "signals": [
     {"id": "RAV4_STOP_LIGHT_RELAY", "path": "Control", "fmt": { "len": 1, "max": 1, "unit": "offon" }, "name": "Stop light relay"}
   ]},
@@ -176,7 +176,7 @@
   "signals": [
     {"id": "RAV4_T_DRIVER", "path": "Climate", "fmt": { "len": 8, "max": 255, "unit": "celsius" }, "name": "Set temperature, driver side"}
   ]},
-{ "hdr": "7C4", "rax": "7CC", "cmd": {"21": "3C"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2022], "from": 2024 },
+{ "hdr": "7C4", "rax": "7CC", "cmd": {"21": "3C"}, "freq": 1, "dbgfilter": { "to": 2013, "years": [2015, 2016, 2017, 2018, 2019, 2022], "from": 2024 },
   "signals": [
     {"id": "RAV4_BLOWER_MOTOR_SPEED_LEVEL", "path": "Climate", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Blower motor speed level"}
   ]},
