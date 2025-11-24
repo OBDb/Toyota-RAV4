@@ -1,0 +1,8 @@
+command_id: 7C4.7CC.213C
+test_cases:
+- expected_values:
+    RAV4_BLOWER_MOTOR_SPEED_LEVEL: 4
+  response: 7CC03613C04
+- expected_values:
+    RAV4_BLOWER_MOTOR_SPEED_LEVEL: 16
+  response: 7CC03613C10
