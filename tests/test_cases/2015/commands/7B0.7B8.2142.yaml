@@ -1,0 +1,26 @@
+command_id: 7B0.7B8.2142
+test_cases:
+- expected_values:
+    RAV4_FL_ACC: 0
+    RAV4_FR_ACC: 0
+    RAV4_RL_ACC: 0
+    RAV4_RR_ACC: 0
+  response: 7B806614200000000
+- expected_values:
+    RAV4_FL_ACC: 1
+    RAV4_FR_ACC: 255
+    RAV4_RL_ACC: 255
+    RAV4_RR_ACC: 255
+  response: 7B8066142FF01FFFF
+- expected_values:
+    RAV4_FL_ACC: 255
+    RAV4_FR_ACC: 255
+    RAV4_RL_ACC: 0
+    RAV4_RR_ACC: 0
+  response: 7B8066142FFFF0000
+- expected_values:
+    RAV4_FL_ACC: 255
+    RAV4_FR_ACC: 255
+    RAV4_RL_ACC: 255
+    RAV4_RR_ACC: 255
+  response: 7B8066142FFFFFFFF
