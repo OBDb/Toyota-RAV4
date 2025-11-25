@@ -12,3 +12,9 @@ test_cases:
 - expected_values:
     RAV4_FLI_VOL: 22.5
   response: 7C80361292D
+- expected_values:
+    RAV4_FLI_VOL: 48
+  response: 7C803612960
+- expected_values:
+    RAV4_FLI_VOL: 49
+  response: 7C803612962

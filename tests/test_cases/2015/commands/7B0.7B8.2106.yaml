@@ -6,6 +6,14 @@ test_cases:
   response: 7B8056106807FF1
 - expected_values:
     RAV4_YAW_RATE: 0
+    RAV4_YAW_RATE2: 0
+  response: 7B805610680800F
+- expected_values:
+    RAV4_YAW_RATE: 0
+    RAV4_YAW_RATE2: 0
+  response: 7B805610680803C
+- expected_values:
+    RAV4_YAW_RATE: 0
     RAV4_YAW_RATE2: 1
   response: 7B805610680814A
 - expected_values:

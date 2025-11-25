@@ -1,6 +1,24 @@
 command_id: 7E0.7E8.2105
 test_cases:
 - expected_values:
+    RAV4_CATALYST_T_B1S1: 534.3
+    RAV4_CATALYST_T_B1S2: 292.3
+  response: |-
+    7E8100861054BAC166F
+    7E8210CFB0000000000
+- expected_values:
+    RAV4_CATALYST_T_B1S1: 407.6
+    RAV4_CATALYST_T_B1S2: 251
+  response: |-
+    7E8100861054BD4117C
+    7E8210B5E0000000000
+- expected_values:
+    RAV4_CATALYST_T_B1S1: 405
+    RAV4_CATALYST_T_B1S2: 200.5
+  response: |-
+    7E8100861054BD81162
+    7E82109650000000000
+- expected_values:
     RAV4_CATALYST_T_B1S1: 600.1
     RAV4_CATALYST_T_B1S2: 290
   response: |-
@@ -12,18 +30,6 @@ test_cases:
   response: |-
     7E8100861054C650B31
     7E82103700000000000
-- expected_values:
-    RAV4_CATALYST_T_B1S1: 421.7
-    RAV4_CATALYST_T_B1S2: 84.1
-  response: |-
-    7E8100861054C651209
-    7E82104D90000000000
-- expected_values:
-    RAV4_CATALYST_T_B1S1: 493.4
-    RAV4_CATALYST_T_B1S2: 175.3
-  response: |-
-    7E8100861054C6514D6
-    7E82108690000000000
 - expected_values:
     RAV4_CATALYST_T_B1S1: 494.2
     RAV4_CATALYST_T_B1S2: 158.7
