@@ -1,0 +1,14 @@
+command_id: 7C4.7CC.2122
+test_cases:
+- expected_values:
+    RAV4_AAT: 8.55
+  response: 7CC0361225B
+- expected_values:
+    RAV4_AAT: 8.9
+  response: 7CC0361225C
+- expected_values:
+    RAV4_AAT: 9.25
+  response: 7CC0361225D
+- expected_values:
+    RAV4_AAT: 9.6
+  response: 7CC0361225E
