@@ -1,0 +1,8 @@
+command_id: 7B0.7B8.2103
+test_cases:
+- expected_values:
+    RAV4_FL_VSS: 43.52
+    RAV4_FR_VSS: 43.52
+    RAV4_RL_VSS: 43.52
+    RAV4_RR_VSS: 43.52
+  response: 7B806610322222222
