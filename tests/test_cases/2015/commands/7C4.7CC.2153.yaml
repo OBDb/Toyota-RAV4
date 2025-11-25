@@ -1,6 +1,9 @@
 command_id: 7C4.7CC.2153
 test_cases:
 - expected_values:
+    RAV4_REGULATOR_P: 0.48476
+  response: 7CC03615340
+- expected_values:
     RAV4_REGULATOR_P: 0.49947
   response: 7CC03615341
 - expected_values:
@@ -12,3 +15,9 @@ test_cases:
 - expected_values:
     RAV4_REGULATOR_P: 0.55831
   response: 7CC03615345
+- expected_values:
+    RAV4_REGULATOR_P: 0.57302
+  response: 7CC03615346
+- expected_values:
+    RAV4_REGULATOR_P: 0.58773
+  response: 7CC03615347

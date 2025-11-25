@@ -3,3 +3,12 @@ test_cases:
 - expected_values:
     RAV4_CC_VSS: 0
   response: '7E80761210000000000'
+- expected_values:
+    RAV4_CC_VSS: 0
+  response: 7E807612100000000E0
+- expected_values:
+    RAV4_CC_VSS: 7
+  response: '7E80761210700008000'
+- expected_values:
+    RAV4_CC_VSS: 45
+  response: 7E80761212D00008000
