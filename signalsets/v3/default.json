@@ -115,7 +115,7 @@
     {"id": "RAV4_BA_CTRL_STATUS",           "path": "Tires", "fmt": {"bix": 11, "len": 1, "max": 1, "unit": "offon" }, "name": "Brake assist status"},
     {"id": "RAV4_PBA_CTRL_STATUS",          "path": "Tires", "fmt": {"bix": 12, "len": 1, "max": 1, "unit": "offon" }, "name": "Predictive brake assist status"}
   ]},
-{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "BE"}, "freq": 1, "dbgfilter": { "to": 2006, "years": [2008, 2009, 2010, 2011, 2012, 2013, 2014], "from": 2016 },
+{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "BE"}, "freq": 1, "dbgfilter": { "to": 2006, "years": [2008, 2009, 2010, 2011, 2012, 2013], "from": 2016 },
   "signals": [
     {"id": "RAV4_FR_WHEEL_SPEED_OPEN",    "path": "Movement",    "fmt": {           "len": 1, "max": 1, "unit": "offon" }, "name": "Front right wheel speed?"},
     {"id": "RAV4_FL_WHEEL_SPEED_OPEN",    "path": "Movement",    "fmt": {"bix": 1,  "len": 1, "max": 1, "unit": "offon" }, "name": "Front left wheel speed?"},
