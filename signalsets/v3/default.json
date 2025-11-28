@@ -313,7 +313,7 @@
     {"id": "RAV4_CC_LIVE_SET_COAST_SWITCH_ON", "path": "Cruise control", "fmt": {"bix": 36, "len": 1, "max": 1,                                                        "unit": "offon"             }, "name": "Coast switch"},
     {"id": "RAV4_CC_CANCEL_SWITCH_ON",         "path": "Cruise control", "fmt": {"bix": 37, "len": 1, "max": 1,                                                        "unit": "offon"             }, "name": "Cancel switch"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "28"}, "freq": 5, "dbgfilter": { "to": 2014, "from": 2016 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "28"}, "freq": 5, "dbgfilter": { "to": 2013, "from": 2016 },
   "signals": [
     {"id": "RAV4_ODO", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
