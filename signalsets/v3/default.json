@@ -164,7 +164,7 @@
   "signals": [
     {"id": "RAV4_AAT", "path": "Engine", "fmt": { "len": 8, "max": 65.95, "min": -23.3, "mul": 89.25, "div": 255, "add": -23.3, "unit": "celsius" }, "name": "Ambient air temperature"}
   ]},
-{ "hdr": "7C4", "rax": "7CC", "cmd": {"21": "24"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2018, 2019, 2022], "from": 2024 },
+{ "hdr": "7C4", "rax": "7CC", "cmd": {"21": "24"}, "freq": 1, "dbgfilter": { "to": 2013, "years": [2016, 2017, 2018, 2019, 2022], "from": 2024 },
   "signals": [
     {"id": "RAV4_SOLAR_DRIVER", "path": "Climate", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Solar senso, driver side"}
   ]},
