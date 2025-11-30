@@ -1,0 +1,24 @@
+command_id: 7B0.7B8.2106
+test_cases:
+- expected_values:
+    RAV4_YAW_RATE: -1
+    RAV4_YAW_RATE2: -1
+  response: 7B80561067F7FD3
+- expected_values:
+    RAV4_YAW_RATE: -1
+    RAV4_YAW_RATE2: -1
+  response: 7B80561067F7FF1
+- expected_values:
+    RAV4_YAW_RATE: 0
+    RAV4_YAW_RATE2: 0
+  response: 7B8056106808000
+- expected_values:
+    RAV4_YAW_RATE: 13
+    RAV4_YAW_RATE2: 19
+  response: 7B80561068D93DD
+- expected_values:
+    RAV4_YAW_RATE: -27
+    RAV4_YAW_RATE2: -11
+  response: |-
+    > 7B0.7B8.2106
+    7B80561066575CE
