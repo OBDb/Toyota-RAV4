@@ -74,3 +74,4 @@ unsupported_commands_by_ecu:
   - 750.758.2116|e=2A,fc=1:RAV4_TT_1,RAV4_TT_2,RAV4_TT_3,RAV4_TT_4,RAV4_TT_5
   "7E0":
   - 7E0.7E8.01B4:RAV4_ATF_T
+  - 7E0.7E8.21DA:RAV4_GEAR_V2
