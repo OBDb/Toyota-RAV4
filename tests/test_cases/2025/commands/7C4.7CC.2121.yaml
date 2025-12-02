@@ -1,0 +1,29 @@
+command_id: 7C4.7CC.2121
+test_cases:
+- expected_values:
+    RAV4_CABIN_T: 10
+  response: 7CC03612142
+- expected_values:
+    RAV4_CABIN_T: 11
+  response: 7CC03612146
+- expected_values:
+    RAV4_CABIN_T: 11.75
+  response: 7CC03612149
+- expected_values:
+    RAV4_CABIN_T: 12
+  response: 7CC0361214A
+- expected_values:
+    RAV4_CABIN_T: 12.5
+  response: 7CC0361214C
+- expected_values:
+    RAV4_CABIN_T: 12.75
+  response: 7CC0361214D
+- expected_values:
+    RAV4_CABIN_T: 13.5
+  response: 7CC03612150
+- expected_values:
+    RAV4_CABIN_T: 13.75
+  response: 7CC03612151
+- expected_values:
+    RAV4_CABIN_T: 15.25
+  response: 7CC03612157
