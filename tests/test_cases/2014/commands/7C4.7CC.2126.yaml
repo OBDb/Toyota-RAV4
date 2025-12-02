@@ -1,8 +1,8 @@
 command_id: 7C4.7CC.2126
 test_cases:
 - expected_values:
-    RAV4_ECT: 55.55
-  response: 7CC0361269B
+    RAV4_ECT: 45.75
+  response: 7CC0361267F
 - expected_values:
     RAV4_ECT: 90.55
   response: 7CC036126FF
