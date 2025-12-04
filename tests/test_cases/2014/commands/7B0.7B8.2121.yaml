@@ -1,6 +1,9 @@
 command_id: 7B0.7B8.2121
 test_cases:
 - expected_values:
+    RAV4_VSS: 91.8
+  response: 7B803612144
+- expected_values:
     RAV4_VSS: 0
   response: |-
     > 7B0.7B8.2121
