@@ -1,11 +1,11 @@
 command_id: 7C0.7C8.2129|f=-2020
 test_cases:
 - expected_values:
-    RAV4_FLI_VOL: 35.5
-  response: 7C803612947
+    RAV4_FLI_VOL: 4
+  response: 7C803612908
 - expected_values:
-    RAV4_FLI_VOL: 51
-  response: 7C803612966
+    RAV4_FLI_VOL: 55
+  response: 7C80361296E
 - expected_values:
     RAV4_FLI_VOL: 55
   response: |-
