@@ -1,8 +1,32 @@
 command_id: 7C4.7CC.2122
 test_cases:
 - expected_values:
+    RAV4_AAT: 13.8
+  response: 7CC0361226A
+- expected_values:
+    RAV4_AAT: 14.15
+  response: 7CC0361226B
+- expected_values:
+    RAV4_AAT: 14.5
+  response: 7CC0361226C
+- expected_values:
+    RAV4_AAT: 14.85
+  response: 7CC0361226D
+- expected_values:
+    RAV4_AAT: 15.55
+  response: 7CC0361226F
+- expected_values:
+    RAV4_AAT: 15.9
+  response: 7CC03612270
+- expected_values:
     RAV4_AAT: 16.6
   response: 7CC03612272
 - expected_values:
     RAV4_AAT: 16.95
   response: 7CC03612273
+- expected_values:
+    RAV4_AAT: 17.3
+  response: 7CC03612274
+- expected_values:
+    RAV4_AAT: 18
+  response: 7CC03612276
