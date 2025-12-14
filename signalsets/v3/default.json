@@ -160,7 +160,7 @@
   "signals": [
     {"id": "RAV4_CABIN_T", "path": "Engine", "fmt": { "len": 8, "max": 57.25, "min": -6.5, "mul": 63.75, "div": 255, "add": -6.5, "unit": "celsius" }, "name": "Cabin temperature"}
   ]},
-{ "hdr": "7C4", "rax": "7CC", "cmd": {"21": "22"}, "freq": 1, "dbgfilter": { "to": 2006, "years": [2008, 2009, 2010, 2011, 2012, 2013, 2014, 2016, 2017, 2018, 2022, 2024], "from": 2026 },
+{ "hdr": "7C4", "rax": "7CC", "cmd": {"21": "22"}, "freq": 1, "dbgfilter": { "to": 2006, "years": [2008, 2009, 2010, 2011, 2012, 2013, 2016, 2017, 2018, 2022, 2024], "from": 2026 },
   "signals": [
     {"id": "RAV4_AAT", "path": "Engine", "fmt": { "len": 8, "max": 65.95, "min": -23.3, "mul": 89.25, "div": 255, "add": -23.3, "unit": "celsius" }, "name": "Ambient air temperature"}
   ]},
