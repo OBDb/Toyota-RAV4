@@ -143,7 +143,7 @@
   "signals": [
     {"id": "RAV4_VSS_7C0", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Vehicle speed, 7C0"}
   ]},
-{ "hdr": "7C0", "rax": "7C8", "cmd": {"21": "23"}, "freq": 1, "dbgfilter": { "to": 2006, "years": [2008, 2009, 2010, 2011, 2012, 2013, 2014], "from": 2016 },
+{ "hdr": "7C0", "rax": "7C8", "cmd": {"21": "23"}, "freq": 1, "dbgfilter": { "to": 2006, "years": [2008, 2009, 2010, 2011, 2012, 2013], "from": 2016 },
   "signals": [
     {"id": "RAV4_COOLANT_T", "path": "Engine", "fmt": { "len": 8, "max": 127.5, "mul": 0.5, "unit": "celsius" }, "name": "Coolant temperature"}
   ]},
