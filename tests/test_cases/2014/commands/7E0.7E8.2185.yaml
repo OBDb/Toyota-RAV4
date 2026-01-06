@@ -9,9 +9,9 @@ test_cases:
     RAV4_GEAR_LOCKUP: 0
   response: '7E8056185012018'
 - expected_values:
-    RAV4_GEAR: 4
+    RAV4_GEAR: 2
     RAV4_GEAR_LOCKUP: 0
-  response: '7E8056185040000'
+  response: '7E8056185020000'
 - expected_values:
     RAV4_GEAR: 6
     RAV4_GEAR_LOCKUP: 0
