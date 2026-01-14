@@ -5,11 +5,11 @@
   ]},
 { "hdr": "750", "rax": "758", "eax": "2A", "fcm1": true, "cmd": {"21": "16"}, "freq": 15, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2018, 2019, 2022, 2023, 2024], "from": 2026 },
   "signals": [
-    {"id": "RAV4_TT_1", "path": "Tires", "fmt": {           "len": 8, "max": 150, "min": -40, "add": -40, "unit": "celsius" }, "name": "Tire temperature #1"},
-    {"id": "RAV4_TT_2", "path": "Tires", "fmt": {"bix": 8,  "len": 8, "max": 150, "min": -40, "add": -40, "unit": "celsius" }, "name": "Tire temperature #2"},
-    {"id": "RAV4_TT_3", "path": "Tires", "fmt": {"bix": 16, "len": 8, "max": 150, "min": -40, "add": -40, "unit": "celsius" }, "name": "Tire temperature #3"},
-    {"id": "RAV4_TT_4", "path": "Tires", "fmt": {"bix": 24, "len": 8, "max": 150, "min": -40, "add": -40, "unit": "celsius" }, "name": "Tire temperature #4"},
-    {"id": "RAV4_TT_5", "path": "Tires", "fmt": {"bix": 32, "len": 8, "max": 150, "min": -40, "add": -40, "unit": "celsius" }, "name": "Tire temperature #5"}
+    {"id": "RAV4_TT_1", "path": "Tires", "fmt": {           "len": 8, "max": 150, "min": -40, "add": -40, "unit": "celsius" }, "name": "Front left tire temperature",  "suggestedMetric": "frontLeftTireTemperature"},
+    {"id": "RAV4_TT_2", "path": "Tires", "fmt": {"bix": 8,  "len": 8, "max": 150, "min": -40, "add": -40, "unit": "celsius" }, "name": "Front right tire temperature", "suggestedMetric": "frontRightTireTemperature"},
+    {"id": "RAV4_TT_3", "path": "Tires", "fmt": {"bix": 16, "len": 8, "max": 150, "min": -40, "add": -40, "unit": "celsius" }, "name": "Rear left tire temperature",   "suggestedMetric": "rearLeftTireTemperature"},
+    {"id": "RAV4_TT_4", "path": "Tires", "fmt": {"bix": 24, "len": 8, "max": 150, "min": -40, "add": -40, "unit": "celsius" }, "name": "Rear right tire temperature",  "suggestedMetric": "rearRightTireTemperature"},
+    {"id": "RAV4_TT_5", "path": "Tires", "fmt": {"bix": 32, "len": 8, "max": 150, "min": -40, "add": -40, "unit": "celsius" }, "name": "Spare tire temperature"}
   ]},
 { "hdr": "750", "rax": "758", "eax": "2A", "tst": "2A", "fcm1": true, "cmd": {"21": "30"}, "freq": 5, "dbgfilter": { "to": 2013, "years": [2016, 2017, 2018, 2022, 2024], "from": 2026 },
   "signals": [
@@ -68,10 +68,10 @@
   ]},
 { "hdr": "7B0", "rax": "7B8", "cmd": {"21": "42"}, "freq": 0.25, "dbgfilter": { "to": 2006, "years": [2008, 2009, 2010, 2011, 2012, 2013], "from": 2016 },
   "signals": [
-    {"id": "RAV4_FR_ACC", "path": "Movement", "fmt": {           "len": 8, "max": 255, "unit": "metersPerSecondSquared" }, "name": "FR wheel acceleration"},
-    {"id": "RAV4_FL_ACC", "path": "Movement", "fmt": {"bix": 8,  "len": 8, "max": 255, "unit": "metersPerSecondSquared" }, "name": "FL wheel acceleration"},
-    {"id": "RAV4_RR_ACC", "path": "Movement", "fmt": {"bix": 16, "len": 8, "max": 255, "unit": "metersPerSecondSquared" }, "name": "RR wheel acceleration"},
-    {"id": "RAV4_RL_ACC", "path": "Movement", "fmt": {"bix": 24, "len": 8, "max": 255, "unit": "metersPerSecondSquared" }, "name": "RL wheel acceleration"}
+    {"id": "RAV4_FR_ACC", "path": "Movement", "fmt": {           "len": 8, "max": 255, "unit": "metersPerSecondSquared" }, "name": "Front right wheel acceleration"},
+    {"id": "RAV4_FL_ACC", "path": "Movement", "fmt": {"bix": 8,  "len": 8, "max": 255, "unit": "metersPerSecondSquared" }, "name": "Front left wheel acceleration"},
+    {"id": "RAV4_RR_ACC", "path": "Movement", "fmt": {"bix": 16, "len": 8, "max": 255, "unit": "metersPerSecondSquared" }, "name": "Rear right wheel acceleration"},
+    {"id": "RAV4_RL_ACC", "path": "Movement", "fmt": {"bix": 24, "len": 8, "max": 255, "unit": "metersPerSecondSquared" }, "name": "Rear left wheel acceleration"}
   ]},
 { "hdr": "7B0", "rax": "7B8", "cmd": {"21": "46"}, "freq": 0.25, "filter": { "to": 2018 }, "dbgfilter": { "to": 2006, "years": [2008, 2009, 2010, 2011, 2012, 2013, 2014], "from": 2016 },
   "signals": [
@@ -133,15 +133,15 @@
   ]},
 { "hdr": "7C0", "rax": "7C8", "cmd": {"21": "21"}, "freq": 1, "filter": { "to": 2018 }, "dbgfilter": { "to": 2006, "years": [2008, 2009, 2010, 2011, 2012, 2013], "from": 2016 },
   "signals": [
-    {"id": "RAV4_VSS_7C0", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Vehicle speed, 7C0"}
+    {"id": "RAV4_VSS_7C0", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Vehicle speed, 7C0", "suggestedMetric": "speed"}
   ]},
 { "hdr": "7C0", "rax": "7C8", "cmd": {"21": "23"}, "freq": 1, "filter": { "to": 2018 }, "dbgfilter": { "to": 2006, "years": [2008, 2009, 2010, 2011, 2012, 2013], "from": 2016 },
   "signals": [
-    {"id": "RAV4_COOLANT_T", "path": "Engine", "fmt": { "len": 8, "max": 127.5, "mul": 0.5, "unit": "celsius" }, "name": "Coolant temperature"}
+    {"id": "RAV4_COOLANT_T", "path": "Engine", "fmt": { "len": 8, "max": 127.5, "div": 2, "unit": "celsius" }, "name": "Coolant temperature", "suggestedMetric": "engineCoolantTemperature"}
   ]},
 { "hdr": "7C0", "rax": "7C8", "cmd": {"21": "29"}, "freq": 30, "filter": { "to": 2020 }, "dbgfilter": { "to": 2013, "from": 2016 },
   "signals": [
-    {"id": "RAV4_FLI_VOL", "path": "Fuel", "fmt": { "len": 8, "max": 127.5, "div": 2, "unit": "liters" }, "name": "Fuel level (volume)", "suggestedMetric": "fuelTankLevel"}
+    {"id": "RAV4_FLI_VOL", "path": "Fuel", "fmt": { "len": 8, "max": 127.5, "div": 2, "unit": "liters" }, "name": "Fuel level, volume", "suggestedMetric": "fuelTankLevel"}
   ]},
 { "hdr": "7C4", "cmd": {"21": "43"}, "freq": 1, "dbgfilter": { "to": 2013, "years": [2016, 2017, 2018, 2022, 2024], "from": 2026 },
   "signals": [
@@ -158,11 +158,11 @@
   ]},
 { "hdr": "7C4", "rax": "7CC", "cmd": {"21": "24"}, "freq": 1, "dbgfilter": { "to": 2013, "years": [2016, 2017, 2018, 2022, 2024], "from": 2026 },
   "signals": [
-    {"id": "RAV4_SOLAR_DRIVER", "path": "Climate", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Solar senso, driver side"}
+    {"id": "RAV4_SOLAR_DRIVER", "path": "Climate", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Solar sensor, driver side"}
   ]},
 { "hdr": "7C4", "rax": "7CC", "cmd": {"21": "26"}, "freq": 1, "dbgfilter": { "to": 2006, "years": [2008, 2009, 2010, 2011, 2012, 2013, 2016, 2017, 2018, 2022, 2024], "from": 2026 },
   "signals": [
-    {"id": "RAV4_ECT", "path": "Engine", "fmt": { "len": 8, "max": 90.55, "min": 1.3, "mul": 89.25, "div": 255, "add": 1.3, "unit": "celsius" }, "name": "Engine coolant temp"}
+    {"id": "RAV4_ECT", "path": "Engine", "fmt": { "len": 8, "max": 90.55, "min": 1.3, "mul": 89.25, "div": 255, "add": 1.3, "unit": "celsius" }, "name": "Engine coolant temperature", "suggestedMetric": "engineCoolantTemperature"}
   ]},
 { "hdr": "7C4", "rax": "7CC", "cmd": {"21": "29"}, "freq": 1, "filter": { "to": 2018 }, "dbgfilter": { "to": 2013, "from": 2016 },
   "signals": [
@@ -220,16 +220,16 @@
   "signals": [
     {"id": "RAV4_CALCULATED_LOAD_7E0",      "path": "Engine",   "fmt": {            "len": 8,  "max": 100,                "mul": 100, "div": 255,               "unit": "percent"           }, "name": "Calculated load_7e0"},
     {"id": "RAV4_VEHICLE_LOAD",             "path": "Engine",   "fmt": {"bix": 8,   "len": 16, "max": 100,                "mul": 100, "div": 65535,             "unit": "percent"           }, "name": "Vehicle load"},
-    {"id": "RAV4_MAF",                      "path": "Engine",   "fmt": {"bix": 24,  "len": 16, "max": 655.35,                                                   "unit": "gramsPerSecond"    }, "name": "MAF"},
-    {"id": "RAV4_MAP",                      "path": "Engine",   "fmt": {"bix": 40,  "len": 8,  "max": 255,                                                      "unit": "kilopascal"        }, "name": "MAP"},
+    {"id": "RAV4_MAF",                      "path": "Engine",   "fmt": {"bix": 24,  "len": 16, "max": 655.35,                                                   "unit": "gramsPerSecond"    }, "name": "Mass air flow",              "suggestedMetric": "massAirFlow"},
+    {"id": "RAV4_MAP",                      "path": "Engine",   "fmt": {"bix": 40,  "len": 8,  "max": 255,                                                      "unit": "kilopascal"        }, "name": "Manifold absolute pressure"},
     {"id": "RAV4_INTAKE_AIR",               "path": "Engine",   "fmt": {"bix": 48,  "len": 8,  "max": 215,    "min": -40,                           "add": -40, "unit": "celsius"           }, "name": "Intake air"},
     {"id": "RAV4_AMBIENT_T",                "path": "Engine",   "fmt": {"bix": 56,  "len": 8,  "max": 215,    "min": -40,                           "add": -40, "unit": "celsius"           }, "name": "Ambient temperature"},
     {"id": "RAV4_ATMOSPHERE_PRESSURE",      "path": "Engine",   "fmt": {"bix": 64,  "len": 8,  "max": 255,                                                      "unit": "kilopascal"        }, "name": "Atmosphere pressure"},
     {"id": "RAV4_COOLANT_TEMP",             "path": "Engine",   "fmt": {"bix": 72,  "len": 8,  "max": 215,    "min": -40,                                       "unit": "celsius"           }, "name": "Coolant temp"},
     {"id": "RAV4_ENGINE_SPEED",             "path": "Movement", "fmt": {"bix": 80,  "len": 16, "max": 16383,                                                    "unit": "rpm"               }, "name": "Engine speed"},
-    {"id": "RAV4_VEHICLE_SPEED",            "path": "Movement", "fmt": {"bix": 96,  "len": 8,  "max": 255,                                                      "unit": "kilometersPerHour" }, "name": "Vehicle speed"},
+    {"id": "RAV4_VEHICLE_SPEED",            "path": "Movement", "fmt": {"bix": 96,  "len": 8,  "max": 255,                                                      "unit": "kilometersPerHour" }, "name": "Vehicle speed",              "suggestedMetric": "speed"},
     {"id": "RAV4_ENGINE_RUN_TIME",          "path": "Engine",   "fmt": {"bix": 104, "len": 16, "max": 65535,                                                    "unit": "seconds"           }, "name": "Engine run time"},
-    {"id": "RAV4_THROTTLE_SENSOR_POSITION", "path": "Engine",   "fmt": {"bix": 120, "len": 8,  "max": 100,                "mul": 100, "div": 255,               "unit": "percent"           }, "name": "Throttle sensor position"},
+    {"id": "RAV4_THROTTLE_SENSOR_POSITION", "path": "Engine",   "fmt": {"bix": 120, "len": 8,  "max": 100,                "mul": 100, "div": 255,               "unit": "percent"           }, "name": "Throttle sensor position",   "suggestedMetric": "throttlePosition"},
     {"id": "RAV4_THROTTLE_SENSOR_VOLT",     "path": "Battery",  "fmt": {"bix": 128, "len": 8,  "max": 100,                "mul": 100, "div": 255,               "unit": "percent"           }, "name": "Throttle sensor volt %"},
     {"id": "RAV4_THROTTL_SENSOR__2_VOLT",   "path": "Battery",  "fmt": {"bix": 136, "len": 8,  "max": 100,                "mul": 100, "div": 255,               "unit": "percent"           }, "name": "Throttl sensor #2 volt %"},
     {"id": "RAV4_ACCEL_SENS__NO_1_VOLT",    "path": "Battery",  "fmt": {"bix": 144, "len": 8,  "max": 100,                "mul": 100, "div": 255,               "unit": "percent"           }, "name": "Accel sens. no.1 volt %"},
@@ -265,23 +265,23 @@
     {"id": "RAV4_NUMBER_OF_EMISSION_DTC",          "path": "DTCs", "fmt": {"bix": 1,  "len": 7,  "max": 127,   "unit": "scalar"     }, "name": "Number of emission DTC"},
     {"id": "RAV4_COMPLETE_PARTS_MONITOR_AVAIL",    "path": "DTCs", "fmt": {"bix": 13, "len": 1,  "max": 1,     "unit": "offon"      }, "name": "Complete parts monitor_avail"},
     {"id": "RAV4_FUEL_SYSTEM_MONITOR_AVAIL",       "path": "DTCs", "fmt": {"bix": 14, "len": 1,  "max": 1,     "unit": "offon"      }, "name": "Fuel system monitor_avail"},
-    {"id": "RAV4_MISFIRE_MONITOR_AVAIL",           "path": "DTCs", "fmt": {"bix": 15, "len": 1,  "max": 1,     "unit": "offon"      }, "name": "Misfire monitor_avail"},
-    {"id": "RAV4_EGR_VVT_MONITOR_AVAIL",           "path": "DTCs", "fmt": {"bix": 16, "len": 1,  "max": 1,     "unit": "offon"      }, "name": "EGR/VVT monitor_avail"},
-    {"id": "RAV4_O2S_A_FS__HEATER_MONITOR_AVAIL",  "path": "DTCs", "fmt": {"bix": 17, "len": 1,  "max": 1,     "unit": "offon"      }, "name": "O2S(A/FS) heater monitor_avail"},
-    {"id": "RAV4_O2S_A_FS__MONITOR_AVAIL",         "path": "DTCs", "fmt": {"bix": 18, "len": 1,  "max": 1,     "unit": "offon"      }, "name": "O2S(A/FS) monitor_avail"},
-    {"id": "RAV4_A_C_MONITOR_AVAIL",               "path": "DTCs", "fmt": {"bix": 19, "len": 1,  "max": 1,     "unit": "offon"      }, "name": "A/C monitor_avail"},
-    {"id": "RAV4_2ND_AIR_MONITOR_AVAIL",           "path": "DTCs", "fmt": {"bix": 20, "len": 1,  "max": 1,     "unit": "offon"      }, "name": "2nd air monitor_avail"},
-    {"id": "RAV4_EVAP_MONITOR_AVAIL",              "path": "DTCs", "fmt": {"bix": 21, "len": 1,  "max": 1,     "unit": "offon"      }, "name": "EVAP monitor_avail"},
-    {"id": "RAV4_HEATED_CATALYST_MONITOR_AVAIL",   "path": "DTCs", "fmt": {"bix": 22, "len": 1,  "max": 1,     "unit": "offon"      }, "name": "Heated catalyst monitor_avail"},
-    {"id": "RAV4_CATALYST_MONITOR_AVAIL",          "path": "DTCs", "fmt": {"bix": 23, "len": 1,  "max": 1,     "unit": "offon"      }, "name": "Catalyst monitor_avail"},
-    {"id": "RAV4_EGR_VVT_MONITOR_INCMPL",          "path": "DTCs", "fmt": {"bix": 24, "len": 1,  "max": 1,     "unit": "offon"      }, "name": "EGR/VVT monitor_incmpl"},
-    {"id": "RAV4_O2S_A_FS__HEATER_MONITOR_INCMPL", "path": "DTCs", "fmt": {"bix": 25, "len": 1,  "max": 1,     "unit": "offon"      }, "name": "O2S(A/FS) heater monitor_incmpl"},
-    {"id": "RAV4_O2S_A_FS__MONITOR_INCMPL",        "path": "DTCs", "fmt": {"bix": 26, "len": 1,  "max": 1,     "unit": "offon"      }, "name": "O2S(A/FS) monitor_incmpl"},
-    {"id": "RAV4_A_C_MONITOR_INCMPL",              "path": "DTCs", "fmt": {"bix": 27, "len": 1,  "max": 1,     "unit": "offon"      }, "name": "A/C monitor_incmpl"},
-    {"id": "RAV4_2ND_AIR_MONITOR_INCMPL",          "path": "DTCs", "fmt": {"bix": 28, "len": 1,  "max": 1,     "unit": "offon"      }, "name": "2nd air monitor_incmpl"},
+    {"id": "RAV4_MISFIRE_MONITOR_AVAIL",           "path": "DTCs", "fmt": {"bix": 15, "len": 1,  "max": 1,     "unit": "offon"      }, "name": "Misfire monitor avail"},
+    {"id": "RAV4_EGR_VVT_MONITOR_AVAIL",           "path": "DTCs", "fmt": {"bix": 16, "len": 1,  "max": 1,     "unit": "offon"      }, "name": "EGR/VVT monitor avail"},
+    {"id": "RAV4_O2S_A_FS__HEATER_MONITOR_AVAIL",  "path": "DTCs", "fmt": {"bix": 17, "len": 1,  "max": 1,     "unit": "offon"      }, "name": "O2S(A/FS) heater monitor avail"},
+    {"id": "RAV4_O2S_A_FS__MONITOR_AVAIL",         "path": "DTCs", "fmt": {"bix": 18, "len": 1,  "max": 1,     "unit": "offon"      }, "name": "O2S(A/FS) monitor avail"},
+    {"id": "RAV4_A_C_MONITOR_AVAIL",               "path": "DTCs", "fmt": {"bix": 19, "len": 1,  "max": 1,     "unit": "offon"      }, "name": "A/C monitor avail"},
+    {"id": "RAV4_2ND_AIR_MONITOR_AVAIL",           "path": "DTCs", "fmt": {"bix": 20, "len": 1,  "max": 1,     "unit": "offon"      }, "name": "2nd air monitor avail"},
+    {"id": "RAV4_EVAP_MONITOR_AVAIL",              "path": "DTCs", "fmt": {"bix": 21, "len": 1,  "max": 1,     "unit": "offon"      }, "name": "EVAP monitor avail"},
+    {"id": "RAV4_HEATED_CATALYST_MONITOR_AVAIL",   "path": "DTCs", "fmt": {"bix": 22, "len": 1,  "max": 1,     "unit": "offon"      }, "name": "Heated catalyst monitor avail"},
+    {"id": "RAV4_CATALYST_MONITOR_AVAIL",          "path": "DTCs", "fmt": {"bix": 23, "len": 1,  "max": 1,     "unit": "offon"      }, "name": "Catalyst monitor avail"},
+    {"id": "RAV4_EGR_VVT_MONITOR_INCMPL",          "path": "DTCs", "fmt": {"bix": 24, "len": 1,  "max": 1,     "unit": "offon"      }, "name": "EGR/VVT monitor incomplete"},
+    {"id": "RAV4_O2S_A_FS__HEATER_MONITOR_INCMPL", "path": "DTCs", "fmt": {"bix": 25, "len": 1,  "max": 1,     "unit": "offon"      }, "name": "O2S(A/FS) heater monitor incomplete"},
+    {"id": "RAV4_O2S_A_FS__MONITOR_INCMPL",        "path": "DTCs", "fmt": {"bix": 26, "len": 1,  "max": 1,     "unit": "offon"      }, "name": "O2S(A/FS) monitor incomplete"},
+    {"id": "RAV4_A_C_MONITOR_INCMPL",              "path": "DTCs", "fmt": {"bix": 27, "len": 1,  "max": 1,     "unit": "offon"      }, "name": "A/C monitor incomplete"},
+    {"id": "RAV4_2ND_AIR_MONITOR_INCMPL",          "path": "DTCs", "fmt": {"bix": 28, "len": 1,  "max": 1,     "unit": "offon"      }, "name": "2nd air monitor incomplete"},
     {"id": "RAV4_EVAP_MONITOR_ICMPL",              "path": "DTCs", "fmt": {"bix": 29, "len": 1,  "max": 1,     "unit": "offon"      }, "name": "EVAP monitor_icmpl"},
-    {"id": "RAV4_HEATED_CATALYST_MONITOR_INCMPL",  "path": "DTCs", "fmt": {"bix": 30, "len": 1,  "max": 1,     "unit": "offon"      }, "name": "Heated catalyst monitor_incmpl"},
-    {"id": "RAV4_CATALYST_MONITOR_INCMPL",         "path": "DTCs", "fmt": {"bix": 31, "len": 1,  "max": 1,     "unit": "offon"      }, "name": "Catalyst monitor_incmpl"},
+    {"id": "RAV4_HEATED_CATALYST_MONITOR_INCMPL",  "path": "DTCs", "fmt": {"bix": 30, "len": 1,  "max": 1,     "unit": "offon"      }, "name": "Heated catalyst monitor incomplete"},
+    {"id": "RAV4_CATALYST_MONITOR_INCMPL",         "path": "DTCs", "fmt": {"bix": 31, "len": 1,  "max": 1,     "unit": "offon"      }, "name": "Catalyst monitor incomplete"},
     {"id": "RAV4_MILON_RUN_DISTANCE",              "path": "DTCs", "fmt": {"bix": 48, "len": 16, "max": 65535, "unit": "kilometers" }, "name": "MIL ON run distance"},
     {"id": "RAV4_RUNNING_TIME_FROM_MIL_ON",        "path": "DTCs", "fmt": {"bix": 64, "len": 16, "max": 65535, "unit": "minutes"    }, "name": "Running time from MIL ON"}
   ]},
@@ -346,8 +346,8 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"21": "82"}, "freq": 1, "filter": { "to": 2018 }, "dbgfilter": { "to": 2013, "from": 2016 },
   "signals": [
-    {"id": "RAV4_ATF_PAN_T", "path": "Transmission", "fmt": {           "len": 16, "max": 215, "min": -40, "div": 256, "add": -40, "unit": "celsius" }, "name": "Transmission temperature (pan)"},
-    {"id": "RAV4_ATF_TQC_T", "path": "Transmission", "fmt": {"bix": 16, "len": 16, "max": 215, "min": -40, "div": 256, "add": -40, "unit": "celsius" }, "name": "Transmission temperature (torque converter)"}
+    {"id": "RAV4_ATF_PAN_T", "path": "Transmission", "fmt": {           "len": 16, "max": 215, "min": -40, "div": 256, "add": -40, "unit": "celsius" }, "name": "Transmission temperature, pan",              "suggestedMetric": "transmissionFluidTemperature"},
+    {"id": "RAV4_ATF_TQC_T", "path": "Transmission", "fmt": {"bix": 16, "len": 16, "max": 215, "min": -40, "div": 256, "add": -40, "unit": "celsius" }, "name": "Transmission temperature, torque converter", "suggestedMetric": "transmissionFluidTemperature"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"21": "85"}, "freq": 0.5, "filter": { "to": 2018 }, "dbgfilter": { "to": 2013, "from": 2016 },
   "signals": [
