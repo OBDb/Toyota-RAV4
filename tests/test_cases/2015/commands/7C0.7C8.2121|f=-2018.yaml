@@ -1,0 +1,20 @@
+command_id: 7C0.7C8.2121|f=-2018
+test_cases:
+- expected_values:
+    RAV4_VSS_7C0: 0
+  response: 7C803612100
+- expected_values:
+    RAV4_VSS_7C0: 3
+  response: 7C803612103
+- expected_values:
+    RAV4_VSS_7C0: 4
+  response: 7C803612104
+- expected_values:
+    RAV4_VSS_7C0: 31
+  response: 7C80361211F
+- expected_values:
+    RAV4_VSS_7C0: 44
+  response: 7C80361212C
+- expected_values:
+    RAV4_VSS_7C0: 49
+  response: 7C803612131

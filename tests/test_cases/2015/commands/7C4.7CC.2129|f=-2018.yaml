@@ -1,0 +1,11 @@
+command_id: 7C4.7CC.2129|f=-2018
+test_cases:
+- expected_values:
+    RAV4_T_DRIVER: 36
+  response: 7CC03612924
+- expected_values:
+    RAV4_T_DRIVER: 38
+  response: 7CC03612926
+- expected_values:
+    RAV4_T_DRIVER: 43
+  response: 7CC0361292B
