@@ -1,9 +1,0 @@
-command_id: 7B0.7B8.2146
-test_cases:
-- expected_values:
-    RAV4_ZP_DEC: -25.11
-    RAV4_ZP_DEC2: -25.11
-    RAV4_ZP_YAW_RATE: 0
-  response: |-
-    7B81009614600008080
-    7B82100501F00000000

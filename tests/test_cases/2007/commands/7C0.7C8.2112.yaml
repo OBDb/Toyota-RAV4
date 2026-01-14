@@ -1,5 +1,0 @@
-command_id: 7C0.7C8.2112
-test_cases:
-- expected_values:
-    RAV4_TAIL_CANCEL: 1
-  response: 7C803611220

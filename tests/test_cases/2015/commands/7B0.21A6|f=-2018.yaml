@@ -1,0 +1,5 @@
+command_id: 7B0.21A6|f=-2018
+test_cases:
+- expected_values:
+    RAV4_INSPECTION_MODE: 0
+  response: 7B80461A600FF
