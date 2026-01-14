@@ -1,5 +1,0 @@
-command_id: 7B0.7B8.2106
-test_cases:
-- expected_values:
-    RAV4_YAW_RATE: 0
-  response: 7B806610680807F6A

@@ -1,0 +1,6 @@
+command_id: 7B0.7B8.211D|f=-2018
+test_cases:
+- expected_values:
+    RAV4_MAIN_IDLE: 1
+    RAV4_RESERVOIR_WARNING: 0
+  response: 7B803611D20

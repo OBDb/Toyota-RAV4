@@ -1,6 +1,0 @@
-command_id: 7B0.7B8.211F
-test_cases:
-- expected_values:
-    RAV4_PARKING_BRAKE: 0
-    RAV4_STOP_LIGHT: 1
-  response: 7B804611F8020
