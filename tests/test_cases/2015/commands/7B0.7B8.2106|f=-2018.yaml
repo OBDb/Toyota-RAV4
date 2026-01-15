@@ -2,6 +2,10 @@ command_id: 7B0.7B8.2106|f=-2018
 test_cases:
 - expected_values:
     RAV4_YAW_RATE: 0
+    RAV4_YAW_RATE2: -1
+  response: 7B8056106807FF1
+- expected_values:
+    RAV4_YAW_RATE: 0
     RAV4_YAW_RATE2: 0
   response: 7B805610680800F
 - expected_values:
