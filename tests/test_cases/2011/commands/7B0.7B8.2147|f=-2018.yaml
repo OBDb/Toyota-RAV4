@@ -1,0 +1,8 @@
+command_id: 7B0.7B8.2147|f=-2018
+test_cases:
+- expected_values:
+    RAV4_LAT_G: -25.11
+    RAV4_LNG_G: 24
+    RAV4_STEER_ANGLE: -61.5
+    RAV4_YAW_RATE3: 0
+  response: 7B807614700FE807D99
