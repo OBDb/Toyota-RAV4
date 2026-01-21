@@ -1,6 +1,18 @@
 command_id: 7B0.7B8.2105|f=-2018
 test_cases:
 - expected_values:
+    RAV4_DECEL: -0.64165
+    RAV4_DECEL2: 0.78424
+  response: |-
+    7B8100961057B85028D
+    7B8210000C900000000
+- expected_values:
+    RAV4_DECEL: -0.49906
+    RAV4_DECEL2: 0.78424
+  response: |-
+    7B8100961057C85033E
+    7B82100008D00000000
+- expected_values:
     RAV4_DECEL: -0.21388
     RAV4_DECEL2: 0.35647
   response: |-
@@ -10,26 +22,8 @@ test_cases:
     RAV4_DECEL: -0.21388
     RAV4_DECEL2: 0.35647
   response: |-
-    7B8100961057E82029A
-    7B82100017700000000
-- expected_values:
-    RAV4_DECEL: -0.21388
-    RAV4_DECEL2: 0.35647
-  response: |-
     7B8100961057E8202C9
     7B82100019D00000000
-- expected_values:
-    RAV4_DECEL: -0.21388
-    RAV4_DECEL2: 0.35647
-  response: |-
-    7B8100961057E8202CF
-    7B82100012400000000
-- expected_values:
-    RAV4_DECEL: -0.21388
-    RAV4_DECEL2: 0.35647
-  response: |-
-    7B8100961057E8202D4
-    7B82100019E00000000
 - expected_values:
     RAV4_DECEL: -0.21388
     RAV4_DECEL2: 0.35647
@@ -54,9 +48,3 @@ test_cases:
   response: |-
     7B8100961057E820302
     7B82100014200000000
-- expected_values:
-    RAV4_DECEL: -0.21388
-    RAV4_DECEL2: 0.35647
-  response: |-
-    7B8100961057E820303
-    7B82100013E00000000

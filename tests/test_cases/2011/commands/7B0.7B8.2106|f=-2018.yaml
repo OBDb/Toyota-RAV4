@@ -4,3 +4,7 @@ test_cases:
     RAV4_YAW_RATE: 0
     RAV4_YAW_RATE2: -3
   response: 7B8056106807D99
+- expected_values:
+    RAV4_YAW_RATE: 0
+    RAV4_YAW_RATE2: 0
+  response: 7B805610680802D
