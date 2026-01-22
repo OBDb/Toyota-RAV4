@@ -14,3 +14,10 @@ test_cases:
   response: |-
     7B810096146FF028080
     7B821003F0C00000000
+- expected_values:
+    RAV4_ZP_DEC: 24
+    RAV4_ZP_DEC2: -24.71769
+    RAV4_ZP_YAW_RATE: 0
+  response: |-
+    7B810096146FF028080
+    7B821003F0E00000000
