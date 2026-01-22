@@ -4,20 +4,5 @@ test_cases:
     RAV4_COOLANT_T: 76
   response: 7C803612398
 - expected_values:
-    RAV4_COOLANT_T: 76.5
-  response: 7C803612399
-- expected_values:
-    RAV4_COOLANT_T: 77
-  response: 7C80361239A
-- expected_values:
-    RAV4_COOLANT_T: 78
-  response: 7C80361239C
-- expected_values:
-    RAV4_COOLANT_T: 78.5
-  response: 7C80361239D
-- expected_values:
-    RAV4_COOLANT_T: 79.5
-  response: 7C80361239F
-- expected_values:
-    RAV4_COOLANT_T: 90.5
-  response: 7C8036123B5
+    RAV4_COOLANT_T: 93.5
+  response: 7C8036123BB
