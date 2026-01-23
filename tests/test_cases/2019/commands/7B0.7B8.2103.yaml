@@ -1,0 +1,56 @@
+command_id: 7B0.7B8.2103
+test_cases:
+- expected_values:
+    RAV4_FL_VSS: 0
+    RAV4_FR_VSS: 0
+    RAV4_RL_VSS: 0
+    RAV4_RR_VSS: 0
+  response: "2103\n7B8 06 61 03 00 00 00 00 "
+- expected_values:
+    RAV4_FL_VSS: 0
+    RAV4_FR_VSS: 0
+    RAV4_RL_VSS: 0
+    RAV4_RR_VSS: 0
+  response: "21031\n7B8 06 61 03 00 00 00 00 "
+- expected_values:
+    RAV4_FL_VSS: 19.2
+    RAV4_FR_VSS: 19.2
+    RAV4_RL_VSS: 19.2
+    RAV4_RR_VSS: 19.2
+  response: "21031\n7B8 06 61 03 0F 0F 0F 0F "
+- expected_values:
+    RAV4_FL_VSS: 70.4
+    RAV4_FR_VSS: 70.4
+    RAV4_RL_VSS: 71.68
+    RAV4_RR_VSS: 71.68
+  response: "21031\n7B8 06 61 03 37 37 38 38 "
+- expected_values:
+    RAV4_FL_VSS: 0
+    RAV4_FR_VSS: 0
+    RAV4_RL_VSS: 0
+    RAV4_RR_VSS: 0
+  response: '7B8 06 61 03 00 00 00 00 '
+- expected_values:
+    RAV4_FL_VSS: 0
+    RAV4_FR_VSS: 0
+    RAV4_RL_VSS: 0
+    RAV4_RR_VSS: 0
+  response: 7B806610300000000
+- expected_values:
+    RAV4_FL_VSS: 51.2
+    RAV4_FR_VSS: 51.2
+    RAV4_RL_VSS: 52.48
+    RAV4_RR_VSS: 52.48
+  response: 7B806610328282929
+- expected_values:
+    RAV4_FL_VSS: 51.2
+    RAV4_FR_VSS: 52.48
+    RAV4_RL_VSS: 52.48
+    RAV4_RR_VSS: 52.48
+  response: 7B806610329282929
+- expected_values:
+    RAV4_FL_VSS: 52.48
+    RAV4_FR_VSS: 52.48
+    RAV4_RL_VSS: 52.48
+    RAV4_RR_VSS: 52.48
+  response: 7B806610329292929

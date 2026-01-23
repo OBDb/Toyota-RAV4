@@ -3,7 +3,7 @@
   "signals": [
     {"id": "RAV4_FLI", "path": "Fuel", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Fuel level", "suggestedMetric": "fuelTankLevel"}
   ]},
-{ "hdr": "750", "rax": "758", "eax": "2A", "fcm1": true, "cmd": {"21": "16"}, "freq": 15, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2018, 2019, 2022, 2023, 2024], "from": 2026 },
+{ "hdr": "750", "rax": "758", "eax": "2A", "fcm1": true, "cmd": {"21": "16"}, "freq": 15, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2018, 2022, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "RAV4_TT_1", "path": "Tires", "fmt": {           "len": 8, "max": 150, "min": -40, "add": -40, "unit": "celsius" }, "name": "Front left tire temperature",  "suggestedMetric": "frontLeftTireTemperature"},
     {"id": "RAV4_TT_2", "path": "Tires", "fmt": {"bix": 8,  "len": 8, "max": 150, "min": -40, "add": -40, "unit": "celsius" }, "name": "Front right tire temperature", "suggestedMetric": "frontRightTireTemperature"},
@@ -23,7 +23,7 @@
   "signals": [
     {"id": "RAV4_INSPECTION_MODE", "path": "Details", "fmt": { "len": 1, "max": 1, "unit": "offon" }, "name": "Inspection mode"}
   ]},
-{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "03"}, "freq": 0.25, "dbgfilter": { "to": 2006, "years": [2009, 2010, 2012, 2013, 2016, 2017, 2018, 2019, 2020], "from": 2022 },
+{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "03"}, "freq": 0.25, "dbgfilter": { "to": 2006, "years": [2009, 2010, 2012, 2013, 2016, 2017, 2018, 2020], "from": 2022 },
   "signals": [
     {"id": "RAV4_FR_VSS", "path": "Movement", "fmt": {           "len": 8, "max": 326.4, "mul": 256, "div": 200, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"},
     {"id": "RAV4_FL_VSS", "path": "Movement", "fmt": {"bix": 8,  "len": 8, "max": 326.4, "mul": 256, "div": 200, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"},
@@ -66,7 +66,7 @@
     {"id": "RAV4_BUZZER",         "path": "Control", "fmt": {"bix": 3, "len": 1, "max": 1, "unit": "offon" }, "name": "Buzzer"},
     {"id": "RAV4_ECB_WARNING",    "path": "Control", "fmt": {"bix": 6, "len": 1, "max": 1, "unit": "offon" }, "name": "ECB warning"}
   ]},
-{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "42"}, "freq": 0.25, "dbgfilter": { "to": 2006, "years": [2008, 2009, 2010, 2012, 2013], "from": 2016 },
+{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "42"}, "freq": 0.25, "dbgfilter": { "to": 2006, "years": [2008, 2009, 2010, 2012, 2013, 2016, 2017, 2018], "from": 2020 },
   "signals": [
     {"id": "RAV4_FR_ACC", "path": "Movement", "fmt": {           "len": 8, "max": 255, "unit": "metersPerSecondSquared" }, "name": "Front right wheel acceleration"},
     {"id": "RAV4_FL_ACC", "path": "Movement", "fmt": {"bix": 8,  "len": 8, "max": 255, "unit": "metersPerSecondSquared" }, "name": "Front left wheel acceleration"},

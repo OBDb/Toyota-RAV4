@@ -1,6 +1,41 @@
 command_id: 750.758.2130|e=2A,ta=2A,fc=1
 test_cases:
 - expected_values:
+    RAV4_TP_FL: 2.13793
+    RAV4_TP_FR: 2.15517
+    RAV4_TP_RL: 2.2069
+    RAV4_TP_RR: 2.18966
+    RAV4_TP_SPARE: 0
+  response: "2130\n758 2A 10 07 61 30 99 9A 9D \n758 2A 21 9C 00 00 00 00 00 "
+- expected_values:
+    RAV4_TP_FL: 2.15517
+    RAV4_TP_FR: 2.17241
+    RAV4_TP_RL: 2.2069
+    RAV4_TP_RR: 2.2069
+    RAV4_TP_SPARE: 0
+  response: "2130\n758 2A 10 07 61 30 9A 9B 9D \n758 2A 21 9D 00 00 00 00 00 "
+- expected_values:
+    RAV4_TP_FL: 2.15517
+    RAV4_TP_FR: 2.17241
+    RAV4_TP_RL: 2.24138
+    RAV4_TP_RR: 2.2069
+    RAV4_TP_SPARE: 0
+  response: "2130\n758 2A 10 07 61 30 9A 9B 9F \n758 2A 21 9D 00 00 00 00 00 "
+- expected_values:
+    RAV4_TP_FL: 2.17241
+    RAV4_TP_FR: 2.18966
+    RAV4_TP_RL: 2.24138
+    RAV4_TP_RR: 2.2069
+    RAV4_TP_SPARE: 0
+  response: "2130\n758 2A 10 07 61 30 9B 9C 9F \n758 2A 21 9D 00 00 00 00 00 "
+- expected_values:
+    RAV4_TP_FL: 0
+    RAV4_TP_FR: 2.15517
+    RAV4_TP_RL: 0
+    RAV4_TP_RR: 2.18966
+    RAV4_TP_SPARE: 0
+  response: "758 2A 10 07 61 30 00 9A 00 \n758 2A 21 9C 00 00 00 00 00 "
+- expected_values:
     RAV4_TP_FL: 0
     RAV4_TP_FR: 0
     RAV4_TP_RL: 0
