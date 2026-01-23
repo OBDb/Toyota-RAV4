@@ -1,0 +1,74 @@
+command_id: 7B0.7B8.2142
+test_cases:
+- expected_values:
+    RAV4_FL_ACC: 0
+    RAV4_FR_ACC: 0
+    RAV4_RL_ACC: 0
+    RAV4_RR_ACC: 0
+  response: "2142\n7B8 06 61 42 00 00 00 00 "
+- expected_values:
+    RAV4_FL_ACC: 0
+    RAV4_FR_ACC: 0
+    RAV4_RL_ACC: 0
+    RAV4_RR_ACC: 0
+  response: "21421\n7B8 06 61 42 00 00 00 00 "
+- expected_values:
+    RAV4_FL_ACC: 0
+    RAV4_FR_ACC: 0
+    RAV4_RL_ACC: 0
+    RAV4_RR_ACC: 255
+  response: "21421\n7B8 06 61 42 00 00 FF 00 "
+- expected_values:
+    RAV4_FL_ACC: 255
+    RAV4_FR_ACC: 1
+    RAV4_RL_ACC: 255
+    RAV4_RR_ACC: 254
+  response: "21421\n7B8 06 61 42 01 FF FE FF "
+- expected_values:
+    RAV4_FL_ACC: 0
+    RAV4_FR_ACC: 253
+    RAV4_RL_ACC: 255
+    RAV4_RR_ACC: 2
+  response: "21421\n7B8 06 61 42 FD 00 02 FF "
+- expected_values:
+    RAV4_FL_ACC: 255
+    RAV4_FR_ACC: 255
+    RAV4_RL_ACC: 253
+    RAV4_RR_ACC: 0
+  response: "21421\n7B8 06 61 42 FF FF 00 FD "
+- expected_values:
+    RAV4_FL_ACC: 0
+    RAV4_FR_ACC: 0
+    RAV4_RL_ACC: 0
+    RAV4_RR_ACC: 0
+  response: '7B8 06 61 42 00 00 00 00 '
+- expected_values:
+    RAV4_FL_ACC: 0
+    RAV4_FR_ACC: 0
+    RAV4_RL_ACC: 0
+    RAV4_RR_ACC: 0
+  response: 7B806614200000000
+- expected_values:
+    RAV4_FL_ACC: 255
+    RAV4_FR_ACC: 0
+    RAV4_RL_ACC: 0
+    RAV4_RR_ACC: 0
+  response: 7B806614200FF0000
+- expected_values:
+    RAV4_FL_ACC: 255
+    RAV4_FR_ACC: 0
+    RAV4_RL_ACC: 255
+    RAV4_RR_ACC: 0
+  response: 7B806614200FF00FF
+- expected_values:
+    RAV4_FL_ACC: 0
+    RAV4_FR_ACC: 255
+    RAV4_RL_ACC: 255
+    RAV4_RR_ACC: 0
+  response: 7B8066142FF0000FF
+- expected_values:
+    RAV4_FL_ACC: 255
+    RAV4_FR_ACC: 255
+    RAV4_RL_ACC: 0
+    RAV4_RR_ACC: 255
+  response: 7B8066142FFFFFF00
