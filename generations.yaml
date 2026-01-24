@@ -1,3 +1,6 @@
+references:
+  - "https://en.wikipedia.org/wiki/Toyota_RAV4"
+
 generations:
   - name: "First Generation (XA10)"
     start_year: 1994
@@ -21,5 +24,5 @@ generations:
 
   - name: "Fifth Generation (XA50)"
     start_year: 2019
-    end_year: null
+    end_year: 2025
     description: "The fifth-generation Toyota RAV4 represents a bold redesign with more rugged, angular styling inspired by Toyota's truck lineup, robust fender flares, and a more upright, muscular stance that departs significantly from the more car-like appearance of its predecessor. Built on Toyota's TNGA-K platform, this generation benefits from a more rigid structure, lower center of gravity, and improved suspension geometry resulting in enhanced handling and ride quality. The standard powertrain in most markets is a 2.5-liter four-cylinder producing 203 horsepower paired with an eight-speed automatic transmission, while the hybrid variant combines the same engine with electric motors for a total system output of 219 horsepower and significantly improved fuel economy of up to 40 mpg combined. A plug-in hybrid (RAV4 Prime) joined the lineup for 2021, offering 302 horsepower and approximately 42 miles of electric-only range. Various all-wheel drive systems are available depending on trim and powertrain, including a sophisticated torque-vectoring system on Adventure and TRD Off-Road models designed for enhanced capability on unpaved surfaces. The interior features a more premium design with higher quality materials, improved ergonomics, and enhanced technology including a standard 7-inch (later 8-inch or 10.5-inch) touchscreen with Apple CarPlay and Android Auto compatibility. Safety technology is comprehensive with Toyota Safety Sense 2.0 standard across all trim levels, offering features like pre-collision system with pedestrian detection, full-speed dynamic radar cruise control, lane departure alert with steering assist, and road sign assist. Distinct visual and functional variations are offered through different trim levels, ranging from the efficiency-focused LE Hybrid to the more rugged TRD Off-Road to the premium Limited. The fifth-generation RAV4 successfully builds upon the model's practical foundation while offering more distinctive styling, improved driving dynamics, enhanced technology, and a range of powertrain options to suit different priorities, helping it maintain its position as one of the world's best-selling SUVs."
