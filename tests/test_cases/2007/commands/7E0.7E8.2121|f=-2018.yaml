@@ -2,4 +2,5 @@ command_id: 7E0.7E8.2121|f=-2018
 test_cases:
 - expected_values:
     RAV4_CC_VSS: 0
+    RAV4_CC_VSS_TARGET: 33
   response: '7E80461210021'
