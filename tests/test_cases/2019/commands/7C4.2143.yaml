@@ -1,6 +1,10 @@
 command_id: 7C4.2143
 test_cases:
 - expected_values:
+    RAV4_AIR_OUTLET_SERVO_ACTU_PULSE_D: 64
+    RAV4_AIR_OUTLET_SERVO_PULSE_D: 64
+  response: 7CC06614340400000
+- expected_values:
     RAV4_AIR_OUTLET_SERVO_ACTU_PULSE_D: 128
     RAV4_AIR_OUTLET_SERVO_PULSE_D: 128
   response: 7CC06614380800500

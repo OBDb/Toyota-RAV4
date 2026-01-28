@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     RAV4_BLOWER_MOTOR_SPEED_LEVEL: 3
   response: 7CC03613C03
+- expected_values:
+    RAV4_BLOWER_MOTOR_SPEED_LEVEL: 13
+  response: 7CC03613C0D

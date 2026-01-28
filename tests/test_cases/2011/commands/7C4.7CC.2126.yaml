@@ -16,5 +16,8 @@ test_cases:
     RAV4_ECT: 79.35
   response: 7CC036126DF
 - expected_values:
+    RAV4_ECT: 88.45
+  response: 7CC036126F9
+- expected_values:
     RAV4_ECT: 90.55
   response: 7CC036126FF
