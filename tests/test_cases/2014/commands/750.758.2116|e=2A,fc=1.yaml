@@ -1,0 +1,11 @@
+command_id: 750.758.2116|e=2A,fc=1
+test_cases:
+- expected_values:
+    RAV4_TT_1: 97
+    RAV4_TT_2: -40
+    RAV4_TT_3: 150
+    RAV4_TT_4: 137
+    RAV4_TT_5: -40
+  response: |-
+    7582A100761168900FF
+    7582A21B10000000000

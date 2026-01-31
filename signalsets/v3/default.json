@@ -3,7 +3,7 @@
   "signals": [
     {"id": "RAV4_FLI", "path": "Fuel", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Fuel level", "suggestedMetric": "fuelTankLevel"}
   ]},
-{ "hdr": "750", "rax": "758", "eax": "2A", "fcm1": true, "cmd": {"21": "16"}, "freq": 15, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2018, 2022, 2023, 2024] },
+{ "hdr": "750", "rax": "758", "eax": "2A", "fcm1": true, "cmd": {"21": "16"}, "freq": 15, "dbgfilter": { "to": 2013, "years": [2016, 2017, 2018, 2022, 2023, 2024] },
   "signals": [
     {"id": "RAV4_TT_1", "path": "Tires", "fmt": {           "len": 8, "max": 150, "min": -40, "add": -40, "unit": "celsius" }, "name": "Front left tire temperature",  "suggestedMetric": "frontLeftTireTemperature"},
     {"id": "RAV4_TT_2", "path": "Tires", "fmt": {"bix": 8,  "len": 8, "max": 150, "min": -40, "add": -40, "unit": "celsius" }, "name": "Front right tire temperature", "suggestedMetric": "frontRightTireTemperature"},
