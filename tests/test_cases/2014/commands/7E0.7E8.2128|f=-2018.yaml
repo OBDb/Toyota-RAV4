@@ -12,3 +12,6 @@ test_cases:
 - expected_values:
     RAV4_ODO: 247611
   response: 7E805612803C73B
+- expected_values:
+    RAV4_ODO: 343861
+  response: 7E8056128053F35

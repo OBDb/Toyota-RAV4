@@ -195,7 +195,7 @@
     {"id": "RAV4_COMM_WITH_AIR_CONDITIONER", "path": "Climate", "fmt": {"bix": 5, "len": 1, "max": 1, "unit": "offon"  }, "name": "Communication with air conditioner"},
     {"id": "RAV4_COMM_WITH_VALVEMATIC_COMM", "path": "Climate", "fmt": {"bix": 6, "len": 1, "max": 1, "unit": "scalar" }, "name": "Communication with valvematic"}
   ]},
-{ "hdr": "7E0", "cmd": {"21": "25"}, "freq": 1, "filter": { "to": 2018 }, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014], "from": 2016 },
+{ "hdr": "7E0", "cmd": {"21": "25"}, "freq": 1, "filter": { "to": 2018 }, "dbgfilter": { "to": 2010, "years": [2012, 2013], "from": 2016 },
   "signals": [
     {"id": "RAV4_POWER_STEERING_SIGNAL",                   "path": "Control", "fmt": {"bix": 4,  "len": 1, "max": 1, "unit": "scalar" }, "name": "Power steering"},
     {"id": "RAV4_STOP_LIGHT_SWITCH",                       "path": "Control", "fmt": {"bix": 5,  "len": 1, "max": 1, "unit": "scalar" }, "name": "Stop light"},
@@ -216,7 +216,7 @@
     {"id": "RAV4_TC_TERMINAL",                             "path": "Control", "fmt": {"bix": 61, "len": 1, "max": 1, "unit": "scalar" }, "name": "TC"},
     {"id": "RAV4_A_C_COMPRESSOR",                          "path": "Control", "fmt": {"bix": 64, "len": 1, "max": 1, "unit": "offon"  }, "name": "A/C compressor"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "01"}, "freq": 1, "filter": { "to": 2018 }, "dbgfilter": { "to": 2006, "years": [2008, 2009, 2010, 2012, 2013, 2014], "from": 2016 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "01"}, "freq": 1, "filter": { "to": 2018 }, "dbgfilter": { "to": 2006, "years": [2008, 2009, 2010, 2012, 2013], "from": 2016 },
   "signals": [
     {"id": "RAV4_CALCULATED_LOAD_7E0",      "path": "Engine",   "fmt": {            "len": 8,  "max": 100,                "mul": 100, "div": 255,               "unit": "percent"           }, "name": "Calculated load_7e0"},
     {"id": "RAV4_VEHICLE_LOAD",             "path": "Engine",   "fmt": {"bix": 8,   "len": 16, "max": 100,                "mul": 100, "div": 65535,             "unit": "percent"           }, "name": "Vehicle load"},
@@ -239,14 +239,14 @@
     {"id": "RAV4_TIME_AFTER_DTC_CLEARED",   "path": "Engine",   "fmt": {"bix": 192, "len": 16, "max": 65535,                                                    "unit": "minutes"           }, "name": "Time after DTC cleared"},
     {"id": "RAV4_BATTERY_VOLTAGE",          "path": "Battery",  "fmt": {"bix": 208, "len": 16, "max": 65.535,                                                   "unit": "volts"             }, "name": "Battery voltage"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "03"}, "freq": 1, "filter": { "to": 2018 }, "dbgfilter": { "to": 2006, "years": [2008, 2009, 2010, 2012, 2013, 2014], "from": 2016 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "03"}, "freq": 1, "filter": { "to": 2018 }, "dbgfilter": { "to": 2006, "years": [2008, 2009, 2010, 2012, 2013], "from": 2016 },
   "signals": [
     {"id": "RAV4_SHORT_FT_B1S1",   "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 99.218, "min": -100, "mul": 200, "div": 256, "add": -100, "unit": "percent" }, "name": "Short FT B1S1"},
     {"id": "RAV4_LONG_FT_B1S1",    "path": "Engine", "fmt": {"bix": 24, "len": 8, "max": 99.218, "min": -100, "mul": 200, "div": 256, "add": -100, "unit": "percent" }, "name": "Long FT B1S1"},
     {"id": "RAV4_IGN_ADVANCE",     "path": "Engine", "fmt": {"bix": 32, "len": 8, "max": 255,                                                      "unit": "degrees" }, "name": "Ignition advance"},
     {"id": "RAV4_EVAP_PURGE_DUTY", "path": "Engine", "fmt": {"bix": 40, "len": 8, "max": 100,                 "mul": 100, "div": 255,              "unit": "percent" }, "name": "EVAP purge duty"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "04"}, "freq": 1, "filter": { "to": 2018 }, "dbgfilter": { "to": 2006, "years": [2008, 2009, 2010, 2012, 2013, 2014], "from": 2016 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "04"}, "freq": 1, "filter": { "to": 2018 }, "dbgfilter": { "to": 2006, "years": [2008, 2009, 2010, 2012, 2013], "from": 2016 },
   "signals": [
     {"id": "RAV4_TARGET_AIR_FUEL_RATIO", "path": "Fuel",    "fmt": {           "len": 16, "max": 1.99,                "mul": 1.99, "div": 65535, "unit": "scalar"    }, "name": "Target air-fuel ratio"},
     {"id": "RAV4_AF_LAMBDA_B1S1",        "path": "Engine",  "fmt": {"bix": 16, "len": 16, "max": 1.99,                "mul": 1.99, "div": 65535, "unit": "scalar"    }, "name": "AF lambda B1S1"},
@@ -254,7 +254,7 @@
     {"id": "RAV4_AFS_CURRENT_B1S1",      "path": "Engine",  "fmt": {"bix": 64, "len": 16, "max": 127.99, "min": -128,                            "unit": "milliamps" }, "name": "AFS current B1S1"},
     {"id": "RAV4_O2S_B1S2",              "path": "Engine",  "fmt": {"bix": 80, "len": 8,  "max": 1.275,               "mul": 5,    "div": 1000,  "unit": "volts"     }, "name": "O2S B1S2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "05"}, "freq": 1, "filter": { "to": 2018 }, "dbgfilter": { "to": 2006, "years": [2008, 2009, 2010, 2012, 2013, 2014], "from": 2016 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "05"}, "freq": 1, "filter": { "to": 2018 }, "dbgfilter": { "to": 2006, "years": [2008, 2009, 2010, 2012, 2013], "from": 2016 },
   "signals": [
     {"id": "RAV4_CATALYST_T_B1S1", "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 6513.5, "min": -40, "div": 10, "add": -40, "unit": "celsius" }, "name": "Catalyst temperature B1S1"},
     {"id": "RAV4_CATALYST_T_B1S2", "path": "Engine", "fmt": {"bix": 32, "len": 16, "max": 6513.5, "min": -40, "div": 10, "add": -40, "unit": "celsius" }, "name": "Catalyst temperature B1S2"}
@@ -305,7 +305,7 @@
   "signals": [
     {"id": "RAV4_ODO", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "45"}, "freq": 1, "filter": { "to": 2018 }, "dbgfilter": { "to": 2006, "years": [2008, 2009, 2010, 2012, 2013, 2014], "from": 2016 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "45"}, "freq": 1, "filter": { "to": 2018 }, "dbgfilter": { "to": 2006, "years": [2008, 2009, 2010, 2012, 2013], "from": 2016 },
   "signals": [
     {"id": "RAV4_MISFIRE_RPM",               "path": "Movement",        "fmt": {"bix": 8,  "len": 8,  "max": 6375,               "mul": 25,                          "unit": "rpm"     }, "name": "Misfire RPM"},
     {"id": "RAV4_MISFIRE_LOAD",              "path": "Engine.Misfires", "fmt": {"bix": 16, "len": 8,  "max": 3.98,               "mul": 4,  "div": 256,              "unit": "scalar"  }, "name": "Misfire load"},
