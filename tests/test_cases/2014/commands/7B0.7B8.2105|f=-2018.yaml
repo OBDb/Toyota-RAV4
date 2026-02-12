@@ -1,0 +1,8 @@
+command_id: 7B0.7B8.2105|f=-2018
+test_cases:
+- expected_values:
+    RAV4_DECEL: 0.35647
+    RAV4_DECEL2: 0.78424
+  response: |-
+    7B81009610582850535
+    7B82117097900000000
