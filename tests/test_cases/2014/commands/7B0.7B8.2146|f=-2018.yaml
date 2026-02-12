@@ -5,5 +5,26 @@ test_cases:
     RAV4_ZP_DEC2: -25.11
     RAV4_ZP_YAW_RATE: 0
   response: |-
+    7B8100961460000807F
+    7B821FDFF0200000000
+- expected_values:
+    RAV4_ZP_DEC: -25.11
+    RAV4_ZP_DEC2: -25.11
+    RAV4_ZP_YAW_RATE: 0
+  response: |-
+    7B81009614600008080
+    7B82101FF0200000000
+- expected_values:
+    RAV4_ZP_DEC: -25.11
+    RAV4_ZP_DEC2: -25.11
+    RAV4_ZP_YAW_RATE: 0
+  response: |-
     7B81009614600008080
     7B8210FFF0200000000
+- expected_values:
+    RAV4_ZP_DEC: -25.11
+    RAV4_ZP_DEC2: -25.11
+    RAV4_ZP_YAW_RATE: 0
+  response: |-
+    7B81009614600008080
+    7B82110FF0200000000
