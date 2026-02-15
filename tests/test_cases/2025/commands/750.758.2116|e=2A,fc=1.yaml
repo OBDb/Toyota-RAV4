@@ -18,3 +18,12 @@ test_cases:
   response: |-
     7582A100761163A3A3A
     7582A213A0000000000
+- expected_values:
+    RAV4_TT_1: 18
+    RAV4_TT_2: 18
+    RAV4_TT_3: 18
+    RAV4_TT_4: 19
+    RAV4_TT_5: -40
+  response: |-
+    7582A100761163A3A3A
+    7582A213B0000000000
