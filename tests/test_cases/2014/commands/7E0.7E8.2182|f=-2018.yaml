@@ -10,5 +10,5 @@ test_cases:
     RAV4_ATF_PAN_T: 36.875
   response: 7E80461824CE0
 - expected_values:
-    RAV4_ATF_PAN_T: 85
-  response: 7E80461827D00
+    RAV4_ATF_PAN_T: 87.5
+  response: 7E80461827F80
