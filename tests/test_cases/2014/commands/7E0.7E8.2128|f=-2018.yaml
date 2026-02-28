@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.2128|f=-2018
 test_cases:
 - expected_values:
-    RAV4_ODO: 242744
-  response: 7E805612803B438
+    RAV4_ODO: 153073
+  response: 7E80561280255F1
 - expected_values:
     RAV4_ODO: 249431
   response: 7E805612803CE57
