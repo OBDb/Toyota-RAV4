@@ -4,8 +4,8 @@ test_cases:
     RAV4_VSS: 0
   response: 7B803612100
 - expected_values:
-    RAV4_VSS: 151.2
-  response: 7B803612170
+    RAV4_VSS: 159.3
+  response: 7B803612176
 - expected_values:
     RAV4_VSS: 0
   response: |-
