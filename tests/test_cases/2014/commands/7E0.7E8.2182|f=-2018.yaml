@@ -1,6 +1,11 @@
 command_id: 7E0.7E8.2182|f=-2018
 test_cases:
 - expected_values:
+    RAV4_ATF_PAN_T: 77.5
+  response: |-
+    2182
+    7E80461827580
+- expected_values:
     RAV4_ATF_PAN_T: 5.625
   response: 7E80461822DA0
 - expected_values:
@@ -10,5 +15,5 @@ test_cases:
     RAV4_ATF_PAN_T: 36.875
   response: 7E80461824CE0
 - expected_values:
-    RAV4_ATF_PAN_T: 87.5
-  response: 7E80461827F80
+    RAV4_ATF_PAN_T: 90
+  response: '7E80461828200'
