@@ -37,6 +37,15 @@ test_cases:
     7582A10076116474A4A
     7582A2146FF00000000
 - expected_values:
+    RAV4_TT_1: 35
+    RAV4_TT_2: 31
+    RAV4_TT_3: 33
+    RAV4_TT_4: 34
+    RAV4_TT_5: 150
+  response: |-
+    7582A100761164B4749
+    7582A214AFF00000000
+- expected_values:
     RAV4_TT_1: 37
     RAV4_TT_2: 15
     RAV4_TT_3: 18
