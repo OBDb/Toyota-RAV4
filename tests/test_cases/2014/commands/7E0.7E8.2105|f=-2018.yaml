@@ -1,6 +1,18 @@
 command_id: 7E0.7E8.2105|f=-2018
 test_cases:
 - expected_values:
+    RAV4_CATALYST_T_B1S1: 771.6
+    RAV4_CATALYST_T_B1S2: 597.6
+  response: |-
+    7E8100861054B9B1FB4
+    7E82118E8
+- expected_values:
+    RAV4_CATALYST_T_B1S1: 771.7
+    RAV4_CATALYST_T_B1S2: 597.3
+  response: |-
+    7E8100861054B9F1FB5
+    7E82118E5
+- expected_values:
     RAV4_CATALYST_T_B1S1: 794.4
     RAV4_CATALYST_T_B1S2: 654.9
   response: |-
