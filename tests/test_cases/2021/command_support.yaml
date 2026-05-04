@@ -91,6 +91,7 @@ supported_commands_by_ecu:
   - 7E0.0144:EQ_RAT
   - 7E0.01A6:ODO
   "7E1":
+  - 7E1.7E9.0104
   - 7E1.7E9.010D
   - 7E1.7E9.0131
   - 7E1.7E9.0142
@@ -208,7 +209,6 @@ unsupported_commands_by_ecu:
   - 7E0.7E8.2185
   - 7E0.7E8.21DA
   "7E1":
-  - 7E1.7E9.0104
   - 7E1.7E9.0105
   - 7E1.7E9.010C
   - 7E1.7E9.0111
