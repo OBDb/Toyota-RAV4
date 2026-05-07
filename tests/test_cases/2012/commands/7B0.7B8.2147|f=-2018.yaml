@@ -1,0 +1,56 @@
+command_id: 7B0.7B8.2147|f=-2018
+test_cases:
+- expected_values:
+    RAV4_LAT_G: -25.11
+    RAV4_LNG_G: -25.11
+    RAV4_STEER_ANGLE: 1.2
+    RAV4_YAW_RATE3: 0
+  response: 7B8076147000080800C
+- expected_values:
+    RAV4_LAT_G: -25.11
+    RAV4_LNG_G: 24
+    RAV4_STEER_ANGLE: 1.7
+    RAV4_YAW_RATE3: 0
+  response: 7B807614700FF808011
+- expected_values:
+    RAV4_LAT_G: -24.91384
+    RAV4_LNG_G: 24
+    RAV4_STEER_ANGLE: -509.7
+    RAV4_YAW_RATE3: 0
+  response: 7B807614701FB806C17
+- expected_values:
+    RAV4_LAT_G: -24.91384
+    RAV4_LNG_G: 24
+    RAV4_STEER_ANGLE: 0
+    RAV4_YAW_RATE3: 0
+  response: 7B807614701FD808000
+- expected_values:
+    RAV4_LAT_G: -24.12922
+    RAV4_LNG_G: -24.32537
+    RAV4_STEER_ANGLE: 281.5
+    RAV4_YAW_RATE3: 23
+  response: 7B80761470504978AFF
+- expected_values:
+    RAV4_LAT_G: -23.93306
+    RAV4_LNG_G: 24
+    RAV4_STEER_ANGLE: 462.2
+    RAV4_YAW_RATE3: 34
+  response: 7B807614706FEA2920E
+- expected_values:
+    RAV4_LAT_G: -22.3638
+    RAV4_LNG_G: -24.52153
+    RAV4_STEER_ANGLE: 284.7
+    RAV4_YAW_RATE3: 35
+  response: 7B80761470E03A38B1F
+- expected_values:
+    RAV4_LAT_G: 24
+    RAV4_LNG_G: -25.11
+    RAV4_STEER_ANGLE: -60.9
+    RAV4_YAW_RATE3: -9
+  response: 7B8076147FB00777D9F
+- expected_values:
+    RAV4_LAT_G: 24
+    RAV4_LNG_G: 23.5369
+    RAV4_STEER_ANGLE: -2.9
+    RAV4_YAW_RATE3: 0
+  response: 7B8076147FFF8807FE3
