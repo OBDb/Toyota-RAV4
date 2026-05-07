@@ -1,0 +1,80 @@
+command_id: 7B0.7B8.2105|f=-2018
+test_cases:
+- expected_values:
+    RAV4_DECEL: -1.78235
+    RAV4_DECEL2: 2.35271
+  response: |-
+    7B81009610573900335
+    7B82100036900000000
+- expected_values:
+    RAV4_DECEL: -1.35459
+    RAV4_DECEL2: -1.06941
+  response: |-
+    7B810096105767805A2
+    7B8210F053900000000
+- expected_values:
+    RAV4_DECEL: -1.06941
+    RAV4_DECEL2: 1.35459
+  response: |-
+    7B81009610578890332
+    7B8210003DF00000000
+- expected_values:
+    RAV4_DECEL: -0.78424
+    RAV4_DECEL2: 0.35647
+  response: |-
+    7B8100961057A8202D2
+    7B8210001F600000000
+- expected_values:
+    RAV4_DECEL: -0.78424
+    RAV4_DECEL2: 0.64165
+  response: |-
+    7B8100961057A84044F
+    7B82100001E00000000
+- expected_values:
+    RAV4_DECEL: -0.64165
+    RAV4_DECEL2: 0.49906
+  response: |-
+    7B8100961057B830306
+    7B8210001E000000000
+- expected_values:
+    RAV4_DECEL: -0.35647
+    RAV4_DECEL2: -1.49718
+  response: |-
+    7B8100961057D75079B
+    7B8212D14A400000000
+- expected_values:
+    RAV4_DECEL: -0.07129
+    RAV4_DECEL2: 0.21388
+  response: |-
+    7B8100961057F81079E
+    7B821210F4A00000000
+- expected_values:
+    RAV4_DECEL: 0.07129
+    RAV4_DECEL2: 0.35647
+  response: |-
+    7B810096105808202FE
+    7B82100034500000000
+- expected_values:
+    RAV4_DECEL: 0.07129
+    RAV4_DECEL2: 0.64165
+  response: |-
+    7B81009610580840303
+    7B82100013B00000000
+- expected_values:
+    RAV4_DECEL: 0.78424
+    RAV4_DECEL2: 3.636
+  response: |-
+    7B81009610585990407
+    7B82100023200000000
+- expected_values:
+    RAV4_DECEL: 0.92682
+    RAV4_DECEL2: -1.06941
+  response: |-
+    7B81009610586780A83
+    7B82148185E00000000
+- expected_values:
+    RAV4_DECEL: 2.49529
+    RAV4_DECEL2: 1.49718
+  response: |-
+    7B810096105918A084E
+    7B821230D4600000000

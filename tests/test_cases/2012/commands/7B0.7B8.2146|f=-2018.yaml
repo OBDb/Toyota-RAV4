@@ -1,0 +1,30 @@
+command_id: 7B0.7B8.2146|f=-2018
+test_cases:
+- expected_values:
+    RAV4_ZP_DEC: 24
+    RAV4_ZP_DEC2: -24.91384
+    RAV4_ZP_YAW_RATE: 0
+  response: |-
+    7B810096146FF018080
+    7B821001B1800000000
+- expected_values:
+    RAV4_ZP_DEC: 24
+    RAV4_ZP_DEC2: -24.91384
+    RAV4_ZP_YAW_RATE: 0
+  response: |-
+    7B810096146FF018080
+    7B821081B1D00000000
+- expected_values:
+    RAV4_ZP_DEC: 24
+    RAV4_ZP_DEC2: -24.91384
+    RAV4_ZP_YAW_RATE: 0
+  response: |-
+    7B810096146FF018080
+    7B8210F1B1900000000
+- expected_values:
+    RAV4_ZP_DEC: 24
+    RAV4_ZP_DEC2: -24.91384
+    RAV4_ZP_YAW_RATE: 0
+  response: |-
+    7B810096146FF018080
+    7B821101B1B00000000
