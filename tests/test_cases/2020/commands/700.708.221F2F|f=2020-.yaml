@@ -4,5 +4,5 @@ test_cases:
     RAV4_FLI: 44.31373
   response: 70804621F2F71
 - expected_values:
-    RAV4_FLI: 60.78431
-  response: 70804621F2F9B
+    RAV4_FLI: 76.47059
+  response: 70804621F2FC3
