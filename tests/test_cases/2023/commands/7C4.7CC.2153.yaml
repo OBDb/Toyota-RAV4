@@ -4,5 +4,5 @@ test_cases:
     RAV4_REGULATOR_P: 0.38179
   response: 7CC03615339
 - expected_values:
-    RAV4_REGULATOR_P: 0.88193
-  response: 7CC0361535B
+    RAV4_REGULATOR_P: 0.9849
+  response: 7CC03615362
