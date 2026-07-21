@@ -4,5 +4,5 @@ test_cases:
     RAV4_AAT: 5.4
   response: 7CC03612252
 - expected_values:
-    RAV4_AAT: 33.75
-  response: 7CC036122A3
+    RAV4_AAT: 36.55
+  response: 7CC036122AB
