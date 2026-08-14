@@ -56,6 +56,16 @@ test_cases:
     7582A10076130B2AFAE
     7582A21AE0000000000
 - expected_values:
+    RAV4_TP_FL: 2.55172
+    RAV4_TP_FR: 2.55172
+    RAV4_TP_RL: 2.51724
+    RAV4_TP_RR: 2.5
+    RAV4_TP_SPARE: 0
+  response: |-
+    7582A10076116464A4B
+    7582A10076130B1B1AF
+    7582A21AE0000000000
+- expected_values:
     RAV4_TP_FL: 0
     RAV4_TP_FR: 0
     RAV4_TP_RL: 0
@@ -102,12 +112,12 @@ test_cases:
     7582A21ACA300000000
 - expected_values:
     RAV4_TP_FL: 2.55172
-    RAV4_TP_FR: 2.51724
-    RAV4_TP_RL: 2.5
+    RAV4_TP_FR: 2.55172
+    RAV4_TP_RL: 2.51724
     RAV4_TP_RR: 2.5
     RAV4_TP_SPARE: 0
   response: |-
-    7582A10076130B1AFAE
+    7582A10076130B1B1AF
     7582A21AE0000000000
 - expected_values:
     RAV4_TP_FL: 2.56897
