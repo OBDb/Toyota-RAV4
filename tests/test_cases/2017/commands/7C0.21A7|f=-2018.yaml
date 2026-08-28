@@ -1,0 +1,5 @@
+command_id: 7C0.21A7|f=-2018
+test_cases:
+- expected_values:
+    RAV4_SEAT_BELT_BEEP: 224
+  response: 7C80361A7E0

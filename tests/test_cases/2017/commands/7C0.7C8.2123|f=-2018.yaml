@@ -1,0 +1,23 @@
+command_id: 7C0.7C8.2123|f=-2018
+test_cases:
+- expected_values:
+    RAV4_COOLANT_T: 75
+  response: 7C803612396
+- expected_values:
+    RAV4_COOLANT_T: 75.5
+  response: 7C803612397
+- expected_values:
+    RAV4_COOLANT_T: 76
+  response: 7C803612398
+- expected_values:
+    RAV4_COOLANT_T: 78.5
+  response: 7C80361239D
+- expected_values:
+    RAV4_COOLANT_T: 83
+  response: 7C8036123A6
+- expected_values:
+    RAV4_COOLANT_T: 83.5
+  response: 7C8036123A7
+- expected_values:
+    RAV4_COOLANT_T: 84
+  response: 7C8036123A8

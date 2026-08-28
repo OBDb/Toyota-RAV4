@@ -1,0 +1,10 @@
+command_id: 7E0.7E8.2103|f=-2018
+test_cases:
+- expected_values:
+    RAV4_EVAP_PURGE_DUTY: 0
+    RAV4_IGN_ADVANCE: 138
+    RAV4_LONG_FT_B1S1: -0.78125
+    RAV4_SHORT_FT_B1S1: 0
+  response: |-
+    7E8100A61030000807F
+    7E8218A000001000000
