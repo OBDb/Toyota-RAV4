@@ -1,4 +1,8 @@
-{ "commands": [
+{ "ecu": [
+    { "hdr": "750", "eax": "2A", "type": "tpms" },
+    { "hdr": "7E0",              "type": "engine" }
+  ],
+  "commands": [
 { "hdr": "700", "rax": "708", "cmd": {"22": "1F2F"}, "freq": 30, "filter": { "from": 2020 }, "dbgfilter": { "from": 2025 },
   "signals": [
     {"id": "RAV4_FLI", "path": "Fuel", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Fuel level", "suggestedMetric": "fuelTankLevel"}
