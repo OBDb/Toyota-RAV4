@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2101|f=-2011
+test_cases:
+- expected_values:
+    RAV4_CALCULATED_LOAD_7E0: 50.58824
+  response: '7E806610181076525'

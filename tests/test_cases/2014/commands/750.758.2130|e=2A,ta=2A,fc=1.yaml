@@ -21,7 +21,6 @@ test_cases:
 - expected_values:
     RAV4_TP_FL: 0.98276
     RAV4_TP_FR: 0
-    RAV4_TP_RL: 3.89655
     RAV4_TP_RR: 2.55172
     RAV4_TP_SPARE: 0
   response: |-

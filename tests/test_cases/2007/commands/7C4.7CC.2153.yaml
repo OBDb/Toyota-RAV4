@@ -1,5 +1,5 @@
 command_id: 7C4.7CC.2153
 test_cases:
 - expected_values:
-    RAV4_REGULATOR_P: 0.47005
+    RAV4_REGULATOR_P: 470.05
   response: 7CC0361533F
