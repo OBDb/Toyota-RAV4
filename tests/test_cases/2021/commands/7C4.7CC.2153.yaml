@@ -1,26 +1,26 @@
 command_id: 7C4.7CC.2153
 test_cases:
 - expected_values:
-    RAV4_REGULATOR_P: 0.38179
+    RAV4_REGULATOR_P: 381.79
   response: 7CC03615339
 - expected_values:
-    RAV4_REGULATOR_P: 0.3965
+    RAV4_REGULATOR_P: 396.5
   response: 7CC0361533A
 - expected_values:
-    RAV4_REGULATOR_P: 0.41121
+    RAV4_REGULATOR_P: 411.21
   response: 7CC0361533B
 - expected_values:
-    RAV4_REGULATOR_P: 0.42592
+    RAV4_REGULATOR_P: 425.92
   response: 7CC0361533C
 - expected_values:
-    RAV4_REGULATOR_P: 0.44063
+    RAV4_REGULATOR_P: 440.63
   response: 7CC0361533D
 - expected_values:
-    RAV4_REGULATOR_P: 0.45534
+    RAV4_REGULATOR_P: 455.34
   response: 7CC0361533E
 - expected_values:
-    RAV4_REGULATOR_P: 0.47005
+    RAV4_REGULATOR_P: 470.05
   response: 7CC0361533F
 - expected_values:
-    RAV4_REGULATOR_P: 1.11729
+    RAV4_REGULATOR_P: 1117.29
   response: 7CC0361536B
