@@ -1,0 +1,5 @@
+command_id: 700.708.2215F8
+test_cases:
+- expected_values:
+    RAV4_BAT_T_700: 28.9
+  response: 708056215F802B1

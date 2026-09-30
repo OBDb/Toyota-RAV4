@@ -1,0 +1,6 @@
+command_id: 700.708.221041
+test_cases:
+- expected_values:
+    RAV4_ECT_IGN: 86.875
+    RAV4_ECT_INIT: 86.875
+  response: 70805621041CBCB

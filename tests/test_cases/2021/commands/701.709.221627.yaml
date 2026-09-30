@@ -1,0 +1,23 @@
+command_id: 701.709.221627
+test_cases:
+- expected_values:
+    RAV4_TF1_PAN: 188.375
+  response: 709056216277EE0
+- expected_values:
+    RAV4_TF1_PAN: 189.5
+  response: 709056216277F80
+- expected_values:
+    RAV4_TF1_PAN: 190.625
+  response: '709056216278020'
+- expected_values:
+    RAV4_TF1_PAN: 191.75
+  response: 7090562162780C0
+- expected_values:
+    RAV4_TF1_PAN: 192.875
+  response: '709056216278160'
+- expected_values:
+    RAV4_TF1_PAN: 194
+  response: '709056216278200'
+- expected_values:
+    RAV4_TF1_PAN: 195.125
+  response: 7090562162782A0

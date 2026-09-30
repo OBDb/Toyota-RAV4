@@ -1,0 +1,8 @@
+command_id: 700.708.221078
+test_cases:
+- expected_values:
+    RAV4_IDLE_SAC_CYL_1: 1
+    RAV4_IDLE_SAC_CYL_2: 0
+    RAV4_IDLE_SAC_CYL_3: 1
+    RAV4_IDLE_SAC_CYL_4: 0
+  response: '7080762107810001000'

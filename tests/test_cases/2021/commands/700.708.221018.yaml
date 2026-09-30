@@ -1,0 +1,14 @@
+command_id: 700.708.221018
+test_cases:
+- expected_values:
+    RAV4_INJECTOR_PORT: 2.979
+  response: 708056210180BA3
+- expected_values:
+    RAV4_INJECTOR_PORT: 3.825
+  response: 708056210180EF1
+- expected_values:
+    RAV4_INJECTOR_PORT: 4.87
+  response: '708056210181306'
+- expected_values:
+    RAV4_INJECTOR_PORT: 9.392
+  response: 7080562101824B0

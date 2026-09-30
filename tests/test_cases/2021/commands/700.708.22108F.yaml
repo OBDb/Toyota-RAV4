@@ -1,0 +1,5 @@
+command_id: 700.708.22108F
+test_cases:
+- expected_values:
+    RAV4_EXHAUST_VVT_OVER_ADV_LEARN_B1: 95.53707
+  response: 7080562108F2637
