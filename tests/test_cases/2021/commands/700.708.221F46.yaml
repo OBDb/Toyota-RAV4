@@ -1,0 +1,8 @@
+command_id: 700.708.221F46
+test_cases:
+- expected_values:
+    RAV4_AMBIENT_T_700: 21
+  response: 70804621F463D
+- expected_values:
+    RAV4_AMBIENT_T_700: 34
+  response: 70804621F464A
