@@ -1,0 +1,11 @@
+command_id: 700.708.221002
+test_cases:
+- expected_values:
+    RAV4_12V_V: 13.56442
+  response: 708056210022B68
+- expected_values:
+    RAV4_12V_V: 13.71579
+  response: 708056210022BE4
+- expected_values:
+    RAV4_12V_V: 14.06246
+  response: 708056210022D00
