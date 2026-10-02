@@ -1,0 +1,11 @@
+command_id: 700.708.2215EE
+test_cases:
+- expected_values:
+    RAV4_V_BATSENS: 11.72352
+  response: 708056215EE2584
+- expected_values:
+    RAV4_V_BATSENS: 13.74254
+  response: 708056215EE2BFA
+- expected_values:
+    RAV4_V_BATSENS: 14.06236
+  response: 708056215EE2D00
