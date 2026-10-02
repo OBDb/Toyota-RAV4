@@ -1,0 +1,23 @@
+command_id: 700.708.2215E7
+test_cases:
+- expected_values:
+    RAV4_DARK_CURRENT_BAT: 0
+  response: '708056215E70000'
+- expected_values:
+    RAV4_DARK_CURRENT_BAT: 3
+  response: '708056215E70003'
+- expected_values:
+    RAV4_DARK_CURRENT_BAT: 11
+  response: 708056215E7000B
+- expected_values:
+    RAV4_DARK_CURRENT_BAT: 128
+  response: '708056215E70080'
+- expected_values:
+    RAV4_DARK_CURRENT_BAT: 144
+  response: '708056215E70090'
+- expected_values:
+    RAV4_DARK_CURRENT_BAT: 152
+  response: '708056215E70098'
+- expected_values:
+    RAV4_DARK_CURRENT_BAT: 359
+  response: '708056215E70167'

@@ -1,0 +1,17 @@
+command_id: 700.708.2215F0
+test_cases:
+- expected_values:
+    RAV4_SLEEP_TIME_BATSENS: 0
+  response: 708046215F000
+- expected_values:
+    RAV4_SLEEP_TIME_BATSENS: 2
+  response: 708046215F002
+- expected_values:
+    RAV4_SLEEP_TIME_BATSENS: 4
+  response: 708046215F004
+- expected_values:
+    RAV4_SLEEP_TIME_BATSENS: 6
+  response: 708046215F006
+- expected_values:
+    RAV4_SLEEP_TIME_BATSENS: 12
+  response: 708046215F00C
