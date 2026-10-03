@@ -1,0 +1,27 @@
+command_id: 700.708.2215F6
+test_cases:
+- expected_values:
+    RAV4_INITIAL_ENG_BAT_V_LO: 8.6
+  response: |-
+    70810096215F6000056
+    7082105673B00000000
+- expected_values:
+    RAV4_INITIAL_ENG_BAT_V_LO: 8.9
+  response: |-
+    70810096215F6000059
+    7082100003900000000
+- expected_values:
+    RAV4_INITIAL_ENG_BAT_V_LO: 9.2
+  response: |-
+    70810096215F600005C
+    7082100004100000000
+- expected_values:
+    RAV4_INITIAL_ENG_BAT_V_LO: 10
+  response: |-
+    70810096215F6000064
+    70821084F4700000000
+- expected_values:
+    RAV4_INITIAL_ENG_BAT_V_LO: 12.8
+  response: |-
+    70810096215F6000080
+    7082100003F00000000
