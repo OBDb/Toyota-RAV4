@@ -1,0 +1,14 @@
+command_id: 700.708.221F3E
+test_cases:
+- expected_values:
+    RAV4_CAT_T_12: 75
+  response: 70805621F3E047E
+- expected_values:
+    RAV4_CAT_T_12: 497.4
+  response: 70805621F3E14FE
+- expected_values:
+    RAV4_CAT_T_12: 600.3
+  response: 70805621F3E1903
+- expected_values:
+    RAV4_CAT_T_12: 725.2
+  response: 70805621F3E1DE4
