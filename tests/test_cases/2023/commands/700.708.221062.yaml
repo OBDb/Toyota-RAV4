@@ -1,0 +1,17 @@
+command_id: 700.708.221062
+test_cases:
+- expected_values:
+    RAV4_EXHAUST_VVT_OCV_CONTROL_DUTY: 25.2079
+  response: '708056210621022'
+- expected_values:
+    RAV4_EXHAUST_VVT_OCV_CONTROL_DUTY: 25.26284
+  response: 70805621062102B
+- expected_values:
+    RAV4_EXHAUST_VVT_OCV_CONTROL_DUTY: 25.50088
+  response: '708056210621052'
+- expected_values:
+    RAV4_EXHAUST_VVT_OCV_CONTROL_DUTY: 25.92203
+  response: '708056210621097'
+- expected_values:
+    RAV4_EXHAUST_VVT_OCV_CONTROL_DUTY: 38.83726
+  response: 7080562106218DB

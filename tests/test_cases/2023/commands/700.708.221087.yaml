@@ -1,0 +1,17 @@
+command_id: 700.708.221087
+test_cases:
+- expected_values:
+    RAV4_INTAKE_VVT_CHANGE_ANGLE_BANK_1: 3.61277
+  response: '708056210870172'
+- expected_values:
+    RAV4_INTAKE_VVT_CHANGE_ANGLE_BANK_1: 5.97572
+  response: '708056210870264'
+- expected_values:
+    RAV4_INTAKE_VVT_CHANGE_ANGLE_BANK_1: 24.88907
+  response: 7080562108709F5
+- expected_values:
+    RAV4_INTAKE_VVT_CHANGE_ANGLE_BANK_1: 25.26987
+  response: 708056210870A1C
+- expected_values:
+    RAV4_INTAKE_VVT_CHANGE_ANGLE_BANK_1: 25.37728
+  response: 708056210870A27
