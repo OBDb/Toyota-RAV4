@@ -1,0 +1,14 @@
+command_id: 700.708.221074
+test_cases:
+- expected_values:
+    RAV4_EOP: 0.85938
+  response: 70805621074000B
+- expected_values:
+    RAV4_EOP: 100.23438
+  response: '708056210740503'
+- expected_values:
+    RAV4_EOP: 279.84375
+  response: 708056210740DFE
+- expected_values:
+    RAV4_EOP: 307.03125
+  response: 708056210740F5A

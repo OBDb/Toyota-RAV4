@@ -1,0 +1,38 @@
+command_id: 700.708.221041
+test_cases:
+- expected_values:
+    RAV4_ECT_IGN: 30
+    RAV4_ECT_INIT: 30
+  response: '708056210417070'
+- expected_values:
+    RAV4_ECT_IGN: 30
+    RAV4_ECT_INIT: 91.25
+  response: 7080562104170D2
+- expected_values:
+    RAV4_ECT_IGN: 30
+    RAV4_ECT_INIT: 93.125
+  response: 7080562104170D5
+- expected_values:
+    RAV4_ECT_IGN: 30
+    RAV4_ECT_INIT: 93.75
+  response: 7080562104170D6
+- expected_values:
+    RAV4_ECT_IGN: 40.625
+    RAV4_ECT_INIT: 40.625
+  response: '708056210418181'
+- expected_values:
+    RAV4_ECT_IGN: 80.625
+    RAV4_ECT_INIT: 80.625
+  response: 70805621041C1C1
+- expected_values:
+    RAV4_ECT_IGN: 90.625
+    RAV4_ECT_INIT: 90.625
+  response: 70805621041D1D1
+- expected_values:
+    RAV4_ECT_IGN: 90.625
+    RAV4_ECT_INIT: 91.25
+  response: 70805621041D1D2
+- expected_values:
+    RAV4_ECT_IGN: 95
+    RAV4_ECT_INIT: 95
+  response: 70805621041D8D8
