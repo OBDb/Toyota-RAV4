@@ -1,0 +1,17 @@
+command_id: 700.708.221017
+test_cases:
+- expected_values:
+    RAV4_INJ_VOL: 1.17594
+  response: 708056210170EB3
+- expected_values:
+    RAV4_INJ_VOL: 1.33594
+  response: 7080562101710B3
+- expected_values:
+    RAV4_INJ_VOL: 1.73625
+  response: 7080562101715B4
+- expected_values:
+    RAV4_INJ_VOL: 2.20062
+  response: 708056210171B82
+- expected_values:
+    RAV4_INJ_VOL: 2.56844
+  response: 70805621017201B

@@ -1,0 +1,14 @@
+command_id: 700.708.22106C
+test_cases:
+- expected_values:
+    RAV4_DIST_SINCE_BAT_DISC: 40
+  response: 7080562106C0028
+- expected_values:
+    RAV4_DIST_SINCE_BAT_DISC: 6399
+  response: 7080562106C18FF
+- expected_values:
+    RAV4_DIST_SINCE_BAT_DISC: 6402
+  response: 7080562106C1902
+- expected_values:
+    RAV4_DIST_SINCE_BAT_DISC: 6708
+  response: 7080562106C1A34
