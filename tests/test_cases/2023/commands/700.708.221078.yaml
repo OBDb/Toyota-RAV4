@@ -1,0 +1,56 @@
+command_id: 700.708.221078
+test_cases:
+- expected_values:
+    RAV4_IDLE_SAC_CYL_1: 0
+    RAV4_IDLE_SAC_CYL_2: 0
+    RAV4_IDLE_SAC_CYL_3: 0
+    RAV4_IDLE_SAC_CYL_4: 0
+  response: '7080762107800000000'
+- expected_values:
+    RAV4_IDLE_SAC_CYL_1: 0
+    RAV4_IDLE_SAC_CYL_2: 0
+    RAV4_IDLE_SAC_CYL_3: 1
+    RAV4_IDLE_SAC_CYL_4: 0
+  response: '7080762107800001000'
+- expected_values:
+    RAV4_IDLE_SAC_CYL_1: 0
+    RAV4_IDLE_SAC_CYL_2: 1
+    RAV4_IDLE_SAC_CYL_3: 0
+    RAV4_IDLE_SAC_CYL_4: 0
+  response: '7080762107800100000'
+- expected_values:
+    RAV4_IDLE_SAC_CYL_1: 0
+    RAV4_IDLE_SAC_CYL_2: 1
+    RAV4_IDLE_SAC_CYL_3: 0
+    RAV4_IDLE_SAC_CYL_4: 1
+  response: '7080762107800100010'
+- expected_values:
+    RAV4_IDLE_SAC_CYL_1: 0
+    RAV4_IDLE_SAC_CYL_2: 1
+    RAV4_IDLE_SAC_CYL_3: 1
+    RAV4_IDLE_SAC_CYL_4: 0
+  response: '7080762107800101000'
+- expected_values:
+    RAV4_IDLE_SAC_CYL_1: 1
+    RAV4_IDLE_SAC_CYL_2: 1
+    RAV4_IDLE_SAC_CYL_3: 0
+    RAV4_IDLE_SAC_CYL_4: 1
+  response: '7080762107810100010'
+- expected_values:
+    RAV4_IDLE_SAC_CYL_1: 1
+    RAV4_IDLE_SAC_CYL_2: 1
+    RAV4_IDLE_SAC_CYL_3: 1
+    RAV4_IDLE_SAC_CYL_4: 0
+  response: '7080762107810101000'
+- expected_values:
+    RAV4_IDLE_SAC_CYL_1: 1
+    RAV4_IDLE_SAC_CYL_2: 1
+    RAV4_IDLE_SAC_CYL_3: 2
+    RAV4_IDLE_SAC_CYL_4: 0
+  response: '7080762107810102000'
+- expected_values:
+    RAV4_IDLE_SAC_CYL_1: 1
+    RAV4_IDLE_SAC_CYL_2: 2
+    RAV4_IDLE_SAC_CYL_3: 2
+    RAV4_IDLE_SAC_CYL_4: 0
+  response: '7080762107810202000'

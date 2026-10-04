@@ -1,0 +1,14 @@
+command_id: 700.708.2210CD
+test_cases:
+- expected_values:
+    RAV4_LFP: 280.8
+  response: 708056210CD8AF8
+- expected_values:
+    RAV4_LFP: 537.5
+  response: 708056210CD94FF
+- expected_values:
+    RAV4_LFP: 563.3
+  response: 708056210CD9601
+- expected_values:
+    RAV4_LFP: 593.5
+  response: 708056210CD972F

@@ -1,0 +1,14 @@
+command_id: 700.708.22108F
+test_cases:
+- expected_values:
+    RAV4_EXHAUST_VVT_OVER_ADV_LEARN_B1: 94.44332
+  response: 7080562108F25C7
+- expected_values:
+    RAV4_EXHAUST_VVT_OVER_ADV_LEARN_B1: 94.45309
+  response: 7080562108F25C8
+- expected_values:
+    RAV4_EXHAUST_VVT_OVER_ADV_LEARN_B1: 94.85348
+  response: 7080562108F25F1
+- expected_values:
+    RAV4_EXHAUST_VVT_OVER_ADV_LEARN_B1: 94.86325
+  response: 7080562108F25F2

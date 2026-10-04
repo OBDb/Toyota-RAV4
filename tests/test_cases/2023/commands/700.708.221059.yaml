@@ -1,0 +1,27 @@
+command_id: 700.708.221059
+test_cases:
+- expected_values:
+    RAV4_ACCEL_PEDAL: 0.00024
+  response: |-
+    708100A621059295129
+    7082151000000000000
+- expected_values:
+    RAV4_ACCEL_PEDAL: 0.00024
+  response: |-
+    708100A62105929512A
+    7082152000000000000
+- expected_values:
+    RAV4_ACCEL_PEDAL: 0.00024
+  response: |-
+    708100A62105929512A
+    7082153000000000000
+- expected_values:
+    RAV4_ACCEL_PEDAL: 21.127
+  response: |-
+    708100A621059476F29
+    70821520F4F00000000
+- expected_values:
+    RAV4_ACCEL_PEDAL: 46.47911
+  response: |-
+    708100A6210596B9329
+    7082152235100000000
