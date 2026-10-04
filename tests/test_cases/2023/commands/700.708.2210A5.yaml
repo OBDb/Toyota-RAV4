@@ -1,0 +1,27 @@
+command_id: 700.708.2210A5
+test_cases:
+- expected_values:
+    RAV4_MISFIRE_CNT: 0
+  response: |-
+    70810086210A5000000
+    7082100B40000000000
+- expected_values:
+    RAV4_MISFIRE_CNT: 0
+  response: |-
+    70810086210A5000047
+    7082100DB0000000000
+- expected_values:
+    RAV4_MISFIRE_CNT: 0
+  response: |-
+    70810086210A500006B
+    7082100DD0000000000
+- expected_values:
+    RAV4_MISFIRE_CNT: 0
+  response: |-
+    70810086210A500013C
+    7082100D60000000000
+- expected_values:
+    RAV4_MISFIRE_CNT: 0
+  response: |-
+    70810086210A5000154
+    7082100DA0000000000
