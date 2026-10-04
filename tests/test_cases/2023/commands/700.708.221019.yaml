@@ -1,0 +1,17 @@
+command_id: 700.708.221019
+test_cases:
+- expected_values:
+    RAV4_INJECTION: DIRECT
+  response: 7080762101901478BB8
+- expected_values:
+    RAV4_INJECTION: DIRECT
+  response: '7080762101901548000'
+- expected_values:
+    RAV4_INJECTION: BOTH
+  response: '7080762101902188000'
+- expected_values:
+    RAV4_INJECTION: BOTH
+  response: 7080762101902F38AE8
+- expected_values:
+    RAV4_INJECTION: BOTH
+  response: 7080762101902F88BB8
