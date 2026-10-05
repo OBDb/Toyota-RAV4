@@ -1,0 +1,11 @@
+command_id: 700.708.22108D
+test_cases:
+- expected_values:
+    RAV4_INTAKE_VVT_OVER_RET_LEARN_B1: 29.19921
+  response: 7080562108D0BAE
+- expected_values:
+    RAV4_INTAKE_VVT_OVER_RET_LEARN_B1: 31.68944
+  response: 7080562108D0CAD
+- expected_values:
+    RAV4_INTAKE_VVT_OVER_RET_LEARN_B1: 32.20702
+  response: 7080562108D0CE2

@@ -1,0 +1,14 @@
+command_id: 7C4.7CC.214C|f=2013-
+test_cases:
+- expected_values:
+    RAV4_EVAP_TARG_T: 1
+  response: 7CC04614C8064
+- expected_values:
+    RAV4_EVAP_TARG_T: 2.59
+  response: 7CC04614C8103
+- expected_values:
+    RAV4_EVAP_TARG_T: 4.06
+  response: 7CC04614C8196
+- expected_values:
+    RAV4_EVAP_TARG_T: 7.91
+  response: 7CC04614C8317

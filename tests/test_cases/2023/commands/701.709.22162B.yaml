@@ -1,0 +1,23 @@
+command_id: 701.709.22162B
+test_cases:
+- expected_values:
+    RAV4_ATF_THERMAL_DEGRAD_EST: 2924
+  response: 7090562162B0B6C
+- expected_values:
+    RAV4_ATF_THERMAL_DEGRAD_EST: 2925
+  response: 7090562162B0B6D
+- expected_values:
+    RAV4_ATF_THERMAL_DEGRAD_EST: 2927
+  response: 7090562162B0B6F
+- expected_values:
+    RAV4_ATF_THERMAL_DEGRAD_EST: 2928
+  response: 7090562162B0B70
+- expected_values:
+    RAV4_ATF_THERMAL_DEGRAD_EST: 2929
+  response: 7090562162B0B71
+- expected_values:
+    RAV4_ATF_THERMAL_DEGRAD_EST: 2930
+  response: 7090562162B0B72
+- expected_values:
+    RAV4_ATF_THERMAL_DEGRAD_EST: 2931
+  response: 7090562162B0B73
