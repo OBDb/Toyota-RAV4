@@ -1,0 +1,26 @@
+command_id: 7C4.7CC.2141
+test_cases:
+- expected_values:
+    RAV4_AIR_MIX_SERVO_ACT_D: 124
+    RAV4_AIR_MIX_SERVO_TARG_D: 124
+  response: 7CC0661417C7C0000
+- expected_values:
+    RAV4_AIR_MIX_SERVO_ACT_D: 126
+    RAV4_AIR_MIX_SERVO_TARG_D: 126
+  response: 7CC0661417E7E0000
+- expected_values:
+    RAV4_AIR_MIX_SERVO_ACT_D: 129
+    RAV4_AIR_MIX_SERVO_TARG_D: 126
+  response: 7CC0661417E810000
+- expected_values:
+    RAV4_AIR_MIX_SERVO_ACT_D: 127
+    RAV4_AIR_MIX_SERVO_TARG_D: 127
+  response: 7CC0661417F7F0000
+- expected_values:
+    RAV4_AIR_MIX_SERVO_ACT_D: 128
+    RAV4_AIR_MIX_SERVO_TARG_D: 128
+  response: 7CC06614180800000
+- expected_values:
+    RAV4_AIR_MIX_SERVO_ACT_D: 129
+    RAV4_AIR_MIX_SERVO_TARG_D: 129
+  response: 7CC06614181810000
