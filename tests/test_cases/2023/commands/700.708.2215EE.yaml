@@ -4,8 +4,8 @@ test_cases:
     RAV4_V_BATSENS: 12.34119
   response: 708056215EE277E
 - expected_values:
-    RAV4_V_BATSENS: 12.47791
-  response: 708056215EE27EE
+    RAV4_V_BATSENS: 13.4276
+  response: 708056215EE2AF8
 - expected_values:
     RAV4_V_BATSENS: 14.07457
   response: 708056215EE2D0A
