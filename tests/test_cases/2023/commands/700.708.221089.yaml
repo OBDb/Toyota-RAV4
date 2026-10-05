@@ -16,6 +16,9 @@ test_cases:
     RAV4_EXHAUST_VVT_HOLD_LEARN_B1: 48.85938
   response: 708056210891F47
 - expected_values:
+    RAV4_EXHAUST_VVT_HOLD_LEARN_B1: 49.10956
+  response: 708056210891F70
+- expected_values:
     RAV4_EXHAUST_VVT_HOLD_LEARN_B1: 49.68316
   response: 708056210891FCE
 - expected_values:

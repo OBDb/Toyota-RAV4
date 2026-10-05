@@ -4,5 +4,8 @@ test_cases:
     RAV4_INTAKE_VVT_OVER_RET_LEARN_B1: 34.86327
   response: 7080562108D0DF2
 - expected_values:
+    RAV4_INTAKE_VVT_OVER_RET_LEARN_B1: 34.97069
+  response: 7080562108D0DFD
+- expected_values:
     RAV4_INTAKE_VVT_OVER_RET_LEARN_B1: 35.01952
   response: 7080562108D0E02

@@ -7,6 +7,9 @@ test_cases:
     RAV4_DARK_CURRENT_BAT: 15
   response: 708056215E7000F
 - expected_values:
+    RAV4_DARK_CURRENT_BAT: 23
+  response: '708056215E70017'
+- expected_values:
     RAV4_DARK_CURRENT_BAT: 35
   response: '708056215E70023'
 - expected_values:
