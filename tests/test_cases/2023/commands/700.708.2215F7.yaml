@@ -1,8 +1,8 @@
 command_id: 700.708.2215F7
 test_cases:
 - expected_values:
-    RAV4_BAT_CURRENT_700: -30.85136
-  response: 708056215F76072
+    RAV4_BAT_CURRENT_700: -39.12607
+  response: 708056215F757F8
 - expected_values:
     RAV4_BAT_CURRENT_700: -19.57946
   response: 708056215F76BFE
