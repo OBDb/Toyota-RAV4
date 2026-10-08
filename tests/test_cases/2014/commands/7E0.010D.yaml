@@ -1,8 +1,14 @@
 command_id: 7E0.010D
 test_cases:
 - expected_values:
+    VSS: 91
+  response: '07 E8 03 41 0D 5B 00 00 00 00 '
+- expected_values:
     VSS: 0
   response: 7E803410D00
 - expected_values:
     VSS: 137
   response: 7E803410D89
+- expected_values:
+    VSS: 60
+  response: "SEARCHING...\n07 E8 03 41 0D 3C 00 00 00 00 "
