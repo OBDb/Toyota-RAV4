@@ -6,30 +6,15 @@ test_cases:
     70810096215F600005D
     7082100004E00000000
 - expected_values:
-    RAV4_INITIAL_ENG_BAT_V_LO: 9.4
+    RAV4_INITIAL_ENG_BAT_V_LO: 9.6
   response: |-
-    70810096215F600005E
-    7082100004E00000000
-- expected_values:
-    RAV4_INITIAL_ENG_BAT_V_LO: 9.5
-  response: |-
-    70810096215F600005F
-    7082100004900000000
-- expected_values:
-    RAV4_INITIAL_ENG_BAT_V_LO: 9.5
-  response: |-
-    70810096215F600005F
-    7082107A24700000000
+    70810096215F6000060
+    7082100006000000000
 - expected_values:
     RAV4_INITIAL_ENG_BAT_V_LO: 9.6
   response: |-
     70810096215F6000060
     708210B3A5000000000
-- expected_values:
-    RAV4_INITIAL_ENG_BAT_V_LO: 9.7
-  response: |-
-    70810096215F6000061
-    7082100005B00000000
 - expected_values:
     RAV4_INITIAL_ENG_BAT_V_LO: 9.7
   response: |-
@@ -40,6 +25,11 @@ test_cases:
   response: |-
     70810096215F6000061
     70821044B5E00000000
+- expected_values:
+    RAV4_INITIAL_ENG_BAT_V_LO: 9.8
+  response: |-
+    70810096215F6000062
+    7082100694E00000000
 - expected_values:
     RAV4_INITIAL_ENG_BAT_V_LO: 9.6
   response: |-
