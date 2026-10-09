@@ -14,7 +14,7 @@ test_cases:
     RAV4_INITIAL_ENG_BAT_V_LO: 8.9
   response: |-
     70810096215F6000059
-    7082100003900000000
+    7082100003700000000
 - expected_values:
     RAV4_INITIAL_ENG_BAT_V_LO: 9.2
   response: |-
