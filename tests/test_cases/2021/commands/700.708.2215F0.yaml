@@ -21,3 +21,6 @@ test_cases:
 - expected_values:
     RAV4_SLEEP_TIME_BATSENS: 12
   response: 708046215F00C
+- expected_values:
+    RAV4_SLEEP_TIME_BATSENS: 32
+  response: 708046215F020
