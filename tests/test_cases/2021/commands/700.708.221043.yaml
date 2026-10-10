@@ -5,9 +5,9 @@ test_cases:
     RAV4_EWP_TARGET_VSS: 0
   response: '708056210430006'
 - expected_values:
-    RAV4_EWP_RPM: 5275
+    RAV4_EWP_RPM: 2650
     RAV4_EWP_TARGET_VSS: 6375
-  response: 70805621043FFD3
+  response: 70805621043FF6A
 - expected_values:
     RAV4_EWP_RPM: 5725
     RAV4_EWP_TARGET_VSS: 6375
