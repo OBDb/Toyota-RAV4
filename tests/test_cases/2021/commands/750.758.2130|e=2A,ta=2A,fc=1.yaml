@@ -28,3 +28,12 @@ test_cases:
   response: |-
     7582A10076130FF9CFF
     7582A219DFF00000000
+- expected_values:
+    RAV4_TP_FL: null
+    RAV4_TP_FR: null
+    RAV4_TP_RL: null
+    RAV4_TP_RR: null
+    RAV4_TP_SPARE: null
+  response: |-
+    7582A10076130FFFFFF
+    7582A21FFFF00000000
