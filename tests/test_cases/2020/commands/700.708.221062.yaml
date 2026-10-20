@@ -1,0 +1,29 @@
+command_id: 700.708.221062
+test_cases:
+- expected_values:
+    RAV4_EXHAUST_VVT_OCV_CONTROL_DUTY: 23.37682
+  response: 708056210620EF6
+- expected_values:
+    RAV4_EXHAUST_VVT_OCV_CONTROL_DUTY: 24.05432
+  response: 708056210620F65
+- expected_values:
+    RAV4_EXHAUST_VVT_OCV_CONTROL_DUTY: 24.15198
+  response: 708056210620F75
+- expected_values:
+    RAV4_EXHAUST_VVT_OCV_CONTROL_DUTY: 25.31167
+  response: '708056210621033'
+- expected_values:
+    RAV4_EXHAUST_VVT_OCV_CONTROL_DUTY: 36.21881
+  response: 70805621062172E
+- expected_values:
+    RAV4_EXHAUST_VVT_OCV_CONTROL_DUTY: 36.90852
+  response: 70805621062179F
+- expected_values:
+    RAV4_EXHAUST_VVT_OCV_CONTROL_DUTY: 37.01228
+  response: 7080562106217B0
+- expected_values:
+    RAV4_EXHAUST_VVT_OCV_CONTROL_DUTY: 37.14046
+  response: 7080562106217C5
+- expected_values:
+    RAV4_EXHAUST_VVT_OCV_CONTROL_DUTY: 43.61639
+  response: 708056210621BEA
