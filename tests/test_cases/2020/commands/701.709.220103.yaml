@@ -1,0 +1,8 @@
+command_id: 701.709.220103
+test_cases:
+- expected_values:
+    RAV4_ODO_V5: 109304
+  response: 709076201030201AAF8
+- expected_values:
+    RAV4_ODO_V5: 109305
+  response: 709076201030201AAF9

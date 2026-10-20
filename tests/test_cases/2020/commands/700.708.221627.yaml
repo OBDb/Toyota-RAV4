@@ -1,0 +1,26 @@
+command_id: 700.708.221627
+test_cases:
+- expected_values:
+    RAV4_ATF_T_PAN_V3: 20
+  response: 708056216273C00
+- expected_values:
+    RAV4_ATF_T_PAN_V3: 20.625
+  response: 708056216273CA0
+- expected_values:
+    RAV4_ATF_T_PAN_V3: 22.5
+  response: '708056216273E80'
+- expected_values:
+    RAV4_ATF_T_PAN_V3: 25
+  response: '708056216274100'
+- expected_values:
+    RAV4_ATF_T_PAN_V3: 25.625
+  response: 7080562162741A0
+- expected_values:
+    RAV4_ATF_T_PAN_V3: 26.875
+  response: '7080562162742E0'
+- expected_values:
+    RAV4_ATF_T_PAN_V3: 27.5
+  response: '708056216274380'
+- expected_values:
+    RAV4_ATF_T_PAN_V3: 28.75
+  response: 7080562162744C0
