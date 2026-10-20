@@ -1,0 +1,8 @@
+command_id: 7B1.7B9.220103
+test_cases:
+- expected_values:
+    RAV4_TOT_DIST: 150
+  response: 7B9076201030201AAF8
+- expected_values:
+    RAV4_TOT_DIST: 150
+  response: 7B9076201030201AAF9

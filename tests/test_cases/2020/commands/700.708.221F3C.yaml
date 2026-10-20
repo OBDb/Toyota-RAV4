@@ -1,0 +1,29 @@
+command_id: 700.708.221F3C
+test_cases:
+- expected_values:
+    RAV4_CAT_T_11: 325.2
+  response: 70805621F3C0E44
+- expected_values:
+    RAV4_CAT_T_11: 359.4
+  response: 70805621F3C0F9A
+- expected_values:
+    RAV4_CAT_T_11: 411.9
+  response: 70805621F3C11A7
+- expected_values:
+    RAV4_CAT_T_11: 525.8
+  response: 70805621F3C161A
+- expected_values:
+    RAV4_CAT_T_11: 528
+  response: 70805621F3C1630
+- expected_values:
+    RAV4_CAT_T_11: 562.8
+  response: 70805621F3C178C
+- expected_values:
+    RAV4_CAT_T_11: 591.9
+  response: 70805621F3C18AF
+- expected_values:
+    RAV4_CAT_T_11: 601.8
+  response: 70805621F3C1912
+- expected_values:
+    RAV4_CAT_T_11: 610.1
+  response: 70805621F3C1965
