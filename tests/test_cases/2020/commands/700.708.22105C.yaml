@@ -1,0 +1,6 @@
+command_id: 700.708.22105C
+test_cases:
+- expected_values:
+    RAV4_KNOCK_CORRECT_LEARNED_VALUE: 13.71875
+    RAV4_KNOCK_FEEDBACK_VALUE: -3
+  response: 7080762105C81B77FA0
