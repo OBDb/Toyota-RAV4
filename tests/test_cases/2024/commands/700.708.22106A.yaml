@@ -1,0 +1,11 @@
+command_id: 700.708.22106A
+test_cases:
+- expected_values:
+    RAV4_FUEL_PUMP_DUTY_RATIO: 208.17073
+  response: 7080562106A0D56
+- expected_values:
+    RAV4_FUEL_PUMP_DUTY_RATIO: 218.29268
+  response: 7080562106A0DFC
+- expected_values:
+    RAV4_FUEL_PUMP_DUTY_RATIO: 218.90244
+  response: 7080562106A0E06

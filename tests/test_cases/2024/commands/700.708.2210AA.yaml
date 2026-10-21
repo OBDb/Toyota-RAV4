@@ -1,0 +1,5 @@
+command_id: 700.708.2210AA
+test_cases:
+- expected_values:
+    RAV4_MISFIRE_LOAD_700: 0
+  response: 708046210AA00
