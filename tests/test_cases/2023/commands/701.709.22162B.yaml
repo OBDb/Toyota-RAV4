@@ -21,3 +21,6 @@ test_cases:
 - expected_values:
     RAV4_ATF_THERMAL_DEGRAD_EST: 2931
   response: 7090562162B0B73
+- expected_values:
+    RAV4_ATF_THERMAL_DEGRAD_EST: 2932
+  response: 7090562162B0B74
