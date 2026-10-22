@@ -1,0 +1,10 @@
+command_id: 7C4.7CC.2141
+test_cases:
+- expected_values:
+    RAV4_AIR_MIX_SERVO_ACT_D: 59
+    RAV4_AIR_MIX_SERVO_TARG_D: 59
+  response: 7CC0661413B3B0200
+- expected_values:
+    RAV4_AIR_MIX_SERVO_ACT_D: 87
+    RAV4_AIR_MIX_SERVO_TARG_D: 87
+  response: 7CC06614157570200
