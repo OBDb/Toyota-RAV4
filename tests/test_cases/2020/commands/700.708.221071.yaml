@@ -1,0 +1,26 @@
+command_id: 700.708.221071
+test_cases:
+- expected_values:
+    RAV4_EXHAUST_VVT_TARGET_ANGLE_B1: 0
+  response: '708056210710000'
+- expected_values:
+    RAV4_EXHAUST_VVT_TARGET_ANGLE_B1: 22.44801
+  response: 7080562107108FB
+- expected_values:
+    RAV4_EXHAUST_VVT_TARGET_ANGLE_B1: 23.83453
+  response: '708056210710989'
+- expected_values:
+    RAV4_EXHAUST_VVT_TARGET_ANGLE_B1: 27.71094
+  response: 708056210710B16
+- expected_values:
+    RAV4_EXHAUST_VVT_TARGET_ANGLE_B1: 34.88766
+  response: 708056210710DF5
+- expected_values:
+    RAV4_EXHAUST_VVT_TARGET_ANGLE_B1: 34.99507
+  response: '708056210710E00'
+- expected_values:
+    RAV4_EXHAUST_VVT_TARGET_ANGLE_B1: 37.33848
+  response: 708056210710EF0
+- expected_values:
+    RAV4_EXHAUST_VVT_TARGET_ANGLE_B1: 40.99031
+  response: '708056210711066'
