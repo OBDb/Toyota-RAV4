@@ -1,0 +1,32 @@
+command_id: 700.708.22106C
+test_cases:
+- expected_values:
+    RAV4_DIST_SINCE_BAT_DISC: 37691
+  response: 7080562106C933B
+- expected_values:
+    RAV4_DIST_SINCE_BAT_DISC: 37692
+  response: 7080562106C933C
+- expected_values:
+    RAV4_DIST_SINCE_BAT_DISC: 37693
+  response: 7080562106C933D
+- expected_values:
+    RAV4_DIST_SINCE_BAT_DISC: 37778
+  response: 7080562106C9392
+- expected_values:
+    RAV4_DIST_SINCE_BAT_DISC: 37779
+  response: 7080562106C9393
+- expected_values:
+    RAV4_DIST_SINCE_BAT_DISC: 37780
+  response: 7080562106C9394
+- expected_values:
+    RAV4_DIST_SINCE_BAT_DISC: 37782
+  response: 7080562106C9396
+- expected_values:
+    RAV4_DIST_SINCE_BAT_DISC: 37787
+  response: 7080562106C939B
+- expected_values:
+    RAV4_DIST_SINCE_BAT_DISC: 37947
+  response: 7080562106C943B
+- expected_values:
+    RAV4_DIST_SINCE_BAT_DISC: 37948
+  response: 7080562106C943C
