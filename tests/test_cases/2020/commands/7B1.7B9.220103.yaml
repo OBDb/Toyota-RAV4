@@ -1,0 +1,29 @@
+command_id: 7B1.7B9.220103
+test_cases:
+- expected_values:
+    RAV4_TOT_DIST: 150
+  response: 7B9076201030201AAF8
+- expected_values:
+    RAV4_TOT_DIST: 150
+  response: 7B9076201030201AAF9
+- expected_values:
+    RAV4_TOT_DIST: 150
+  response: 7B9076201030201AB2F
+- expected_values:
+    RAV4_TOT_DIST: 150
+  response: 7B9076201030201AB30
+- expected_values:
+    RAV4_TOT_DIST: 150
+  response: 7B9076201030201AB32
+- expected_values:
+    RAV4_TOT_DIST: 150
+  response: 7B9076201030201AB35
+- expected_values:
+    RAV4_TOT_DIST: 150
+  response: 7B9076201030201AB9A
+- expected_values:
+    RAV4_TOT_DIST: 150
+  response: 7B9076201030201AB9B
+- expected_values:
+    RAV4_TOT_DIST: 150
+  response: 7B9076201030201AB9C
