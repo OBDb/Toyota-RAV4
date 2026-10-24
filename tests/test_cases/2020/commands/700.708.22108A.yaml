@@ -1,0 +1,14 @@
+command_id: 700.708.22108A
+test_cases:
+- expected_values:
+    RAV4_VVT_IE_DUTY_RATIO_1: -13.91088
+  response: 7080562108A7720
+- expected_values:
+    RAV4_VVT_IE_DUTY_RATIO_1: 13.92072
+  response: 7080562108A88F1
+- expected_values:
+    RAV4_VVT_IE_DUTY_RATIO_1: 14.06717
+  response: 7080562108A8909
+- expected_values:
+    RAV4_VVT_IE_DUTY_RATIO_1: 34.17963
+  response: 7080562108A95E9

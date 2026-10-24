@@ -120,10 +120,9 @@
   "signals": [
     {"id": "RAV4_EXHAUST_VVT_HOLD_LEARN_B1", "path": "Engine", "fmt": { "len": 16, "max": 399.9, "mul": 399.9, "div": 65535, "unit": "percent" }, "name": "Exhaust VVT hold learn value, bank 1"}
   ]},
-{ "hdr": "700", "rax": "708", "cmd": {"22": "108A"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2022], "from": 2024 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "108A"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2022], "from": 2025 },
   "signals": [
-    {"id": "RAV4_VVT_IE_DUTY_RATIO_1",              "path": "ECU", "fmt": {           "len": 15, "max": -0.0531, "min": -200, "mul": 399.9, "div": 65535, "add": -200, "unit": "percent" }, "name": "VVT-ie duty ratio bank 1"},
-    {"id": "RAV4_VVT_IE_MOTOR_DIRECTION_FORWARD_1", "path": "ECU", "fmt": {"bix": 15, "len": 1,  "max": 1,                                                             "unit": "offon"   }, "name": "VVT-ie motor direction: forward bank 1"}
+    {"id": "RAV4_VVT_IE_DUTY_RATIO_1", "path": "ECU", "fmt": { "len": 16, "max": 199, "min": -200, "mul": 399.9, "div": 65535, "add": -200, "unit": "percent" }, "name": "VVT-ie duty ratio bank 1"}
   ]},
 { "hdr": "700", "rax": "708", "cmd": {"22": "108D"}, "freq": 3600, "dbgfilter": { "to": 2020, "years": [2022], "from": 2024 },
   "signals": [
