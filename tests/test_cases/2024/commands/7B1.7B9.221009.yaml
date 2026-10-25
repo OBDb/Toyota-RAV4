@@ -1,0 +1,74 @@
+command_id: 7B1.7B9.221009
+test_cases:
+- expected_values:
+    RAV4_REAL_ENG_TQ: 10.8125
+    RAV4_STEER_ANG: 22.5
+  response: |-
+    7B9100D621009000080
+    7B92100015A80E1000F
+- expected_values:
+    RAV4_REAL_ENG_TQ: 11.84375
+    RAV4_STEER_ANG: -1.5
+  response: |-
+    7B9100D621009000080
+    7B92100017B7FF1FFFE
+- expected_values:
+    RAV4_REAL_ENG_TQ: 12.125
+    RAV4_STEER_ANG: 1.5
+  response: |-
+    7B9100D621009000080
+    7B921000184800F0000
+- expected_values:
+    RAV4_REAL_ENG_TQ: 48.4375
+    RAV4_STEER_ANG: 3
+  response: |-
+    7B9100D621009000080
+    7B9211C060E801E0001
+- expected_values:
+    RAV4_REAL_ENG_TQ: 4.375
+    RAV4_STEER_ANG: 132
+  response: |-
+    7B9100D62100900008A
+    7B92104008C85280056
+- expected_values:
+    RAV4_REAL_ENG_TQ: 141.3125
+    RAV4_STEER_ANG: 0
+  response: |-
+    7B9100D621009000280
+    7B9215011AA8000FFFF
+- expected_values:
+    RAV4_REAL_ENG_TQ: 150
+    RAV4_STEER_ANG: 4.5
+  response: |-
+    7B9100D621009000880
+    7B9217412FC802D0002
+- expected_values:
+    RAV4_REAL_ENG_TQ: -1.09375
+    RAV4_STEER_ANG: 6
+  response: |-
+    7B9100D62100900FE80
+    7B9210FFFDD803C0004
+- expected_values:
+    RAV4_REAL_ENG_TQ: 128.8125
+    RAV4_STEER_ANG: 1.5
+  response: |-
+    7B9100D621009010780
+    7B92161101A800F0001
+- expected_values:
+    RAV4_REAL_ENG_TQ: -0.78125
+    RAV4_STEER_ANG: 7.5
+  response: |-
+    7B9100D62100904FF81
+    7B92109FFE7804B0005
+- expected_values:
+    RAV4_REAL_ENG_TQ: -15.5625
+    RAV4_STEER_ANG: -20
+  response: |-
+    7B9100D621009F8F778
+    7B92100FE0E7D6CFFD3
+- expected_values:
+    RAV4_REAL_ENG_TQ: 57
+    RAV4_STEER_ANG: -10.5
+  response: |-
+    7B9100D621009FD007E
+    7B9212B07207F97FFF9
