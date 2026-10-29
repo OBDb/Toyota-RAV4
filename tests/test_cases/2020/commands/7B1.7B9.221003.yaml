@@ -1,0 +1,14 @@
+command_id: 7B1.7B9.221003
+test_cases:
+- expected_values:
+    RAV4_FL_WHL_SPD: 0
+    RAV4_FR_WHL_SPD: 0
+    RAV4_RL_WHL_SPD: 0
+    RAV4_RR_WHL_SPD: 0
+  response: 7B90762100300000000
+- expected_values:
+    RAV4_FL_WHL_SPD: 109.9451
+    RAV4_FR_WHL_SPD: 111.22353
+    RAV4_RL_WHL_SPD: 109.9451
+    RAV4_RR_WHL_SPD: 111.22353
+  response: 7B90762100357565756
