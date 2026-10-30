@@ -1,8 +1,8 @@
 command_id: 7C0.7C8.221022
 test_cases:
 - expected_values:
-    RAV4_FUEL_LEVEL: 13.5
-  response: 7C8056210220546
+    RAV4_FUEL_LEVEL: 11.44
+  response: 7C8056210220478
 - expected_values:
     RAV4_FUEL_LEVEL: 22.86
   response: 7C80562102208EE
