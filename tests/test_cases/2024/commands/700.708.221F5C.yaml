@@ -1,8 +1,8 @@
 command_id: 700.708.221F5C
 test_cases:
 - expected_values:
-    RAV4_EOT_V2: 34
-  response: 70804621F5C4A
+    RAV4_EOT_V2: 26
+  response: 70804621F5C42
 - expected_values:
     RAV4_EOT_V2: 94
   response: 70804621F5C86
