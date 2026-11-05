@@ -7,5 +7,5 @@ test_cases:
     RAV4_ATF_T_PAN_V3: 20
   response: 708056216273C00
 - expected_values:
-    RAV4_ATF_T_PAN_V3: 90
-  response: '708056216278200'
+    RAV4_ATF_T_PAN_V3: 95
+  response: '708056216278700'
