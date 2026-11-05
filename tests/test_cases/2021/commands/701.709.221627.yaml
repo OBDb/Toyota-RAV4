@@ -10,5 +10,5 @@ test_cases:
     RAV4_TF1_PAN: 62.375
   response: '7090562162738E0'
 - expected_values:
-    RAV4_TF1_PAN: 198.5
-  response: '709056216278480'
+    RAV4_TF1_PAN: 199.625
+  response: '709056216278520'
