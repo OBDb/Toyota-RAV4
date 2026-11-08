@@ -1,0 +1,18 @@
+command_id: 7E0.7E8.2181
+test_cases:
+- expected_values:
+    RAV4_NT_SENS_V: 0.45411
+    RAV4_SPD_NIN: 50
+    RAV4_SPD_NOUT: 2350
+    RAV4_SPD_NT: 250
+  response: |-
+    7E81008618105174001
+    7E8212FC00000000000
+- expected_values:
+    RAV4_NT_SENS_V: 0.60548
+    RAV4_SPD_NIN: 400
+    RAV4_SPD_NOUT: 2000
+    RAV4_SPD_NT: 1300
+  response: |-
+    7E8100861811A1F0008
+    7E82128C00000000000

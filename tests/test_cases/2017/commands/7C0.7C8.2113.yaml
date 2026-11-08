@@ -1,0 +1,8 @@
+command_id: 7C0.7C8.2113
+test_cases:
+- expected_values:
+    RAV4_BAT_V: 12.8
+  response: 7C803611380
+- expected_values:
+    RAV4_BAT_V: 12.9
+  response: 7C803611381
