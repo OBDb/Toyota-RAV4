@@ -10,5 +10,5 @@ test_cases:
     RAV4_12V_V: 12.81247
   response: '708056210022900'
 - expected_values:
-    RAV4_12V_V: 14.38473
-  response: '708056210022E08'
+    RAV4_12V_V: 14.68746
+  response: 708056210022F00
