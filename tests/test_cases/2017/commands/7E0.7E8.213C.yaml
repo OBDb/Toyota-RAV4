@@ -1,0 +1,12 @@
+command_id: 7E0.7E8.213C
+test_cases:
+- expected_values:
+    RAV4_INJ_DUR_CYL_1: 2.497
+    RAV4_INJ_VOL_CYL_1: 0.0001
+    RAV4_TOT_FT_1: 3.51562
+  response: 7E807613C0CA909C189
+- expected_values:
+    RAV4_INJ_DUR_CYL_1: 3.36
+    RAV4_INJ_VOL_CYL_1: 0.00015
+    RAV4_TOT_FT_1: 3.51562
+  response: 7E807613C12ED0D2089

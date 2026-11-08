@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.21B2
+test_cases:
+- expected_values:
+    RAV4_KNOCK_ADJUST: -63.875
+    RAV4_KNOCK_FEEDBACK: 1024.23536
+  response: |-
+    7E8100D61B200048807
+    7E821DF000008CB0000

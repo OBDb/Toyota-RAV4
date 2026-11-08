@@ -1,0 +1,10 @@
+command_id: 7E0.7E8.2139
+test_cases:
+- expected_values:
+    RAV4_ACIS_VSV_ON: 0
+    RAV4_ELEC_FAN_MOTOR_ON: 0
+    RAV4_EVAP_PURGE_VSV_ON: 1
+    RAV4_FUEL_PMP_SPD_STAT_ON: 0
+    RAV4_TQ_CONV_TE1_ON: 0
+    RAV4_VARIABLE_VLV_TIM_1_ON: 0
+  response: '7E80761390010000000'
