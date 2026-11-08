@@ -7,8 +7,8 @@ test_cases:
     RAV4_FUEL_LEVEL: 15.35
   response: 7C80562102205FF
 - expected_values:
-    RAV4_FUEL_LEVEL: 17.92
-  response: 7C8056210220700
+    RAV4_FUEL_LEVEL: 15.36
+  response: 7C8056210220600
 - expected_values:
     RAV4_FUEL_LEVEL: 25.7
   response: 7C8056210220A0A
