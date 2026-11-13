@@ -1,8 +1,8 @@
 command_id: 701.709.221627
 test_cases:
 - expected_values:
-    RAV4_TF1_PAN: 55.625
-  response: '709056216273520'
+    RAV4_TF1_PAN: 52.25
+  response: '709056216273340'
 - expected_values:
     RAV4_TF1_PAN: 59
   response: '709056216273700'
