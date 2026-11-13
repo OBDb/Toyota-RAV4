@@ -10,5 +10,5 @@ test_cases:
     RAV4_ODO_V5: 87808
   response: '7090762010301015700'
 - expected_values:
-    RAV4_ODO_V5: 88854
-  response: 7090762010301015B16
+    RAV4_ODO_V5: 89098
+  response: 7090762010301015C0A
