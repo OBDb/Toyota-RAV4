@@ -1,14 +1,18 @@
 command_id: 700.708.220103
 test_cases:
 - expected_values:
-    RAV4_ENG_ODO: 109304
+    RAV4_ENG_ODO_RAW: 109304
+    RAV4_ENG_ODO_UNIT: MI
   response: 708076201030201AAF8
 - expected_values:
-    RAV4_ENG_ODO: 109305
+    RAV4_ENG_ODO_RAW: 109305
+    RAV4_ENG_ODO_UNIT: MI
   response: 708076201030201AAF9
 - expected_values:
-    RAV4_ENG_ODO: 109359
+    RAV4_ENG_ODO_RAW: 109359
+    RAV4_ENG_ODO_UNIT: MI
   response: 708076201030201AB2F
 - expected_values:
-    RAV4_ENG_ODO: 109637
+    RAV4_ENG_ODO_RAW: 109637
+    RAV4_ENG_ODO_UNIT: MI
   response: 708076201030201AC45
